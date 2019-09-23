@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: $container--xxs;
+  padding-left: $gutter / 2;
+  padding-right: $gutter / 2;
+
+  @include breakpoint(xs-up) {
+    max-width: $container--xs;
+  }
+
+  @include breakpoint(sm-up) {
+    max-width: $container--sm;
+  }
+
+  @include breakpoint(md-up) {
+    max-width: $container--md;
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+
+  @include breakpoint(lg-only) {
+    max-width: $container--lg;
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+
+  @include breakpoint(xl-only) {
+    max-width: $container--xl;
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+}
+
+// Slim content width for text only pages
+.text-only-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $container--sm;
+}
+
+// SET WIDTH TEXT AREA
+// Slim width for text content centered within container
+// Used where grid doesn't suit what we need
+.set-column {
+  margin: auto;
+  max-width: 644px;
+}
+
+// Universal vertical padding for block areas
+.padded-block {
+  padding-bottom: $pad-v--xxl;
+  padding-top: $pad-v--xxl;
+
+  @include breakpoint(sm-up) {
+    padding-bottom: $pad-v--xxxl;
+    padding-top: $pad-v--xxxl;
+  }
+
+  > h2,  > .h2,
+  > h3,  > .h3 {
+    // If title immediate first child of padded-block (which it most likely will be)
+    // remove the top margin for consistent padding on whole block
+    margin-top: 0;
+  }
+
+  & + & {
+    padding-top: 0;
+  }
+
+  &--bottom-md {
+     padding-bottom: $pad-v--sm;
+
+    @include breakpoint(sm-up) {
+      padding-bottom: $pad-v--md;
+    }
+  }
+
+  &--top-md {
+     padding-top: $pad-v--sm;
+
+    @include breakpoint(sm-up) {
+      padding-top: $pad-v--md;
+    }
+  }
+}

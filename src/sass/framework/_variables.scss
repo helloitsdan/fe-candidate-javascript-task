@@ -1,0 +1,222 @@
+// ******************** //
+//      GRID            //
+// ******************** //
+$screen-xxs:  375px;
+$screen-xs:   768px;
+$screen-sm:   1024px;
+$screen-md:   1280px;
+$screen-lg:   1440px;
+$screen-xl:   1920px;
+
+$screen-xxs-max: ($screen-xs - 1) !default;
+$screen-xs-max:  ($screen-sm - 1) !default;
+$screen-sm-max:  ($screen-md - 1) !default;
+$screen-md-max:  ($screen-lg - 1) !default;
+$screen-lg-max:  ($screen-xl - 1) !default;
+
+$gutter:      40px;
+$gutter--sm:  20px;
+$gutter--xs:  12px; // Used for grid gutters
+
+$container--xl: 1640px;
+$container--lg: 1280px;
+$container--md: 1175px;
+$container--sm: 956px;
+$container--xs: 700px;
+$container--xxs: 500px;
+
+
+// ******************** //
+//        COLORS        //
+// ******************** //
+
+// Primary
+$color-eire:          #506B57 !default;
+$color-eire-lighter:  #899B8E;
+$color-eire-darker:   darken($color-eire, 8%) !default;
+
+$color-bounce:        #f92672 !default;
+$color-bounce-darker: darken($color-bounce, 15%) !default;
+
+$color-sailor:        #304858 !default;
+$color-sailor-hover:  #2b3d49 !default; // Sailor :hover ??
+$color-sailor-tint:   #3d5869 !default; // Sailor tint ??
+
+$color-happy:         #fcca1b !default;
+$color-happy-hover:   #edbe1a !default;
+
+$color-frances:       #5890f8 !default;
+$color-cheeky:        #f96c46 !default;
+$color-loyal:         #45477c !default;
+$color-barely:        #f4f5f9 !default;
+$color-fairly:        #fff7fa !default;
+$grey-green:          #f0f3ef !default; // TODO: Colour is currently unnamed in Toolkit
+
+// Greys
+$grey-dark:         #223e49 !default; // Deep
+$grey-mid:          #808e97 !default; // Audrey
+$grey-mid-light:    lighten($grey-mid, 20%) !default; // disabled btn colour
+$grey-light:        #eaecf2 !default; // Footer background only
+
+// New "Clay" greys for home page
+$clay-light:        #e8eef1 !default; // Clay Light
+$clay-dark:         #c3cfd4 !default; // Clay Dark
+
+// States
+$success:           #038351 !default; // Success
+$error:             #E02B00 !default; // Error
+
+// Others
+$white:             #fff !default; // Air
+$black:             #000 !default;
+$black-overlay:     rgba(0, 0, 0, 0.08);  // Black overlay for image hovers
+
+// ******************** //
+//       Z-INDEX        //
+// ******************** //
+$zindex-header:            1020 !default;
+$zindex-dropdown:          1030 !default;
+$zindex-sticky:            1030 !default;
+$zindex-nav-overlay:       1000 !default;
+$zindex-modal-overlay:     1040 !default;
+$zindex-modal:             1050 !default;
+
+// ******************** //
+//      TYPOGRAPHY      //
+// ******************** //
+
+// Font scale based on modular scale of 1.20.
+// Line heights on 1.50 ratio for paragraph copy, 1.04 ratio for heading copy.
+// Paragraph sizes same for mobile and desktop, Heading sizes smaller for mobile.
+// See font sizes spreadsheet for calculations and full details can be explained by Bert.
+
+$font-family-serif:      "freight-display-pro", Georgia, Times, "Times New Roman", sans-serif !default;
+$font-family-sans-serif: "proxima-nova",  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+// Hero
+$font-size-hero: 46px !default;
+$line-height-hero: 48px !default;
+
+$font-size-hero--mob: 36px !default;
+$line-height-hero--mob: 36px !default;
+
+$font-size-xl: 46px !default;
+$line-height-xl: 48px !default;
+
+$font-size-xl--mob: 36px !default;
+$line-height-xl--mob: 36px !default;
+
+// Large
+// Steps outside of the font scaling rule, by request of design team.
+$font-size-large: 36px !default;
+$line-height-large: 40px !default;
+
+$font-size-large--mob: 32px !default;
+$line-height-large--mob: 36px !default;
+
+// Medium
+$font-size-medium: 27px !default;
+$line-height-medium: 28px !default;
+
+$font-size-medium--mob: 24px !default;
+$line-height-medium--mob: 24px !default;
+
+// Lead
+$font-size-lead: 22px !default;
+$line-height-lead: 24px !default;
+
+$font-size-lead--mob: 20px !default;
+$line-height-lead--mob: 20px !default;
+
+// Normal
+$font-size-normal: 18px !default;
+$line-height-normal: 28px !default;
+
+// Small
+$font-size-small: 16px !default;
+$line-height-small: 24px !default;
+
+// Micro
+$font-size-micro: 13px !default;
+$line-height-micro: 20px !default;
+
+// Nano
+$font-size-nano: 11px !default;
+$line-height-nano: 16px !default;
+
+// Font weights
+$font-weight--light:          300 !default; // Proxima Nova Light / FreightDisp Pro Book Light
+$font-weight--regular:        400 !default; // Proxima Nova Regular / FreightDisp Pro Book
+$font-weight--semibold:       500 !default; // Proxima Nova Semibold / FreightDisp Pro Semibold
+$font-weight--bold:           600 !default; // Proxima Nova Bold / FreightDisp Pro Bold
+
+
+// Scaffolding
+$text-color:            $color-sailor !default; // Global text colour
+$link-color:            $color-eire !default; // Global text link colour
+$link-hover-color:      $color-eire-darker !default;
+$link-hover-decoration: underline !default; // Global text link hover decoration
+
+
+// ******************** //
+//       PADDING        //
+// ******************** //
+
+//  HORIZONTAL PADDING based on 5px grid
+// >>> Left & Right padding variables
+
+// base- horizontal padding = 5px
+$base-h-padding: 5px !default;
+
+$pad-h--xs:    $base-h-padding * 1 !default;  // 5px
+$pad-h--sm:    $base-h-padding * 2 !default;  // 10px
+$pad-h--md:    $base-h-padding * 3 !default;  // 15px
+$pad-h--lg:    $base-h-padding * 4 !default;  // 20px
+$pad-h--xl:    $base-h-padding * 6 !default;  // 30px
+$pad-h--xxl:   $base-h-padding * 8 !default;  // 40px
+$pad-h--xxxl:  $base-h-padding * 9 !default;  // 45px
+$pad-h--xxxxl: $base-h-padding * 10 !default; // 45px
+
+
+// VERTICAL PADDING based on 4px grid
+// ^^^ Top & Bottom padding variables
+
+// 4px (Gap between similar text objects, e.g. bullet points)
+// 8px (Gap between text objects to differentiate hierarchy - e.g. paragraph header & description on cards)
+// 12px (Gap between objects in a component - e,g. title, horizontal line, thumbnail)
+// 16px (Gap between headers and body)
+// 24/32px (Gap between components - e.g. cards, Cards’ Inner top/bottom padding)
+// 48px (Gap separating CTA from content)
+// Desktop : 80px, Mobile : 60px (Section Inner top/bottom padding)
+
+// base vertical padding = 4px
+$base-v-padding: 4px;
+
+$pad-v--xxxs: $base-v-padding * 1 !default;  // 4px
+$pad-v--xxs:  $base-v-padding * 2 !default;  // 8px
+$pad-v--xs:   $base-v-padding * 3 !default;  // 12px
+$pad-v--sm:   $base-v-padding * 4 !default;  // 16px
+$pad-v--md:   $base-v-padding * 6 !default;  // 24px
+$pad-v--lg:   $base-v-padding * 8 !default;  // 32px
+$pad-v--xl:   $base-v-padding * 12 !default; // 48px
+$pad-v--xxl:  $base-v-padding * 15 !default; // 60px - Mobile
+$pad-v--xxxl: $base-v-padding * 20 !default; // 80px - Desktop
+// ^ Responsive rules to be used for the above
+
+
+// ******************** //
+//      ANIMATIONS      //
+// ******************** //
+
+$animation-speed: 0.3s !default;
+$animation-speed--fast: ($animation-speed / 2) !default;
+$animation-speed--slow: ($animation-speed * 2) !default;
+
+// ******************** //
+//      HELPERS	        //
+// ******************** //
+
+// Misc. helper classes and values
+
+// Shadows
+$shadow-grey--light: 0 2px 15px rgba(0,0,0,0.15);

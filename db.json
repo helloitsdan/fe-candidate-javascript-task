@@ -1,0 +1,1678 @@
+{
+  "customers": [
+    {
+      "_id": "5d88a1b7af4c135cc4f3cf42",
+      "index": 0,
+      "uuid": "998f7c57-8fda-499e-bc05-852db6703f00",
+      "isActive": true,
+      "name": {
+        "first": "Leonard",
+        "last": "Freeman"
+      },
+      "email": "leonard.freeman@undefined.io",
+      "phone": "+44 838532312",
+      "address": "539 Whitney Avenue, Clarktown, Arkansas, 7267",
+      "registered": "2016-07-13T02:57:55.235Z"
+    },
+    {
+      "_id": "5d88a1b73498a8013060e9f7",
+      "index": 1,
+      "uuid": "2b07f75a-76ed-4deb-80dc-9530f2e17c11",
+      "isActive": true,
+      "name": {
+        "first": "Jean",
+        "last": "Mckenzie"
+      },
+      "email": "jean.mckenzie@undefined.ca",
+      "phone": "+44 824436373",
+      "address": "436 Lewis Avenue, Stewart, Georgia, 1465",
+      "registered": "2014-03-27T11:46:06.935Z"
+    },
+    {
+      "_id": "5d88a1b78926d530379f7cab",
+      "index": 2,
+      "uuid": "85f607be-33fe-46bd-b7ed-1ec19047276b",
+      "isActive": true,
+      "name": {
+        "first": "Hubbard",
+        "last": "Ware"
+      },
+      "email": "hubbard.ware@undefined.us",
+      "phone": "+44 913563271",
+      "address": "640 Sunnyside Avenue, Tolu, California, 193",
+      "registered": "2015-10-29T15:14:42.183Z"
+    },
+    {
+      "_id": "5d88a1b7ae1b9d8eb7cd1ea5",
+      "index": 3,
+      "uuid": "fb2b4c61-940e-468a-ad92-69b05ca57e16",
+      "isActive": false,
+      "name": {
+        "first": "Verna",
+        "last": "Dodson"
+      },
+      "email": "verna.dodson@undefined.tv",
+      "phone": "+44 958436393",
+      "address": "128 Plymouth Street, Elizaville, Puerto Rico, 447",
+      "registered": "2015-02-28T01:45:13.126Z"
+    },
+    {
+      "_id": "5d88a1b77f1d0bcce4fa2394",
+      "index": 4,
+      "uuid": "b43aee0c-ffc0-4e71-ad2c-3b4c85f23731",
+      "isActive": true,
+      "name": {
+        "first": "Alexander",
+        "last": "Rivers"
+      },
+      "email": "alexander.rivers@undefined.biz",
+      "phone": "+44 867555288",
+      "address": "151 Montague Street, Loretto, Alaska, 8506",
+      "registered": "2014-07-24T10:42:44.703Z"
+    },
+    {
+      "_id": "5d88a1b7faefc2f58de539a8",
+      "index": 5,
+      "uuid": "093d88c9-ea45-4b05-abfa-644b1a1a6a8b",
+      "isActive": false,
+      "name": {
+        "first": "Rocha",
+        "last": "Chen"
+      },
+      "email": "rocha.chen@undefined.co.uk",
+      "phone": "+44 862594354",
+      "address": "473 Conover Street, Nord, Marshall Islands, 8863",
+      "registered": "2018-09-20T02:43:08.792Z"
+    },
+    {
+      "_id": "5d88a1b765f9d7e9f1b03c96",
+      "index": 6,
+      "uuid": "dda9ea3d-3117-4667-b671-6ee74f283a92",
+      "isActive": true,
+      "name": {
+        "first": "Serrano",
+        "last": "Marshall"
+      },
+      "email": "serrano.marshall@undefined.biz",
+      "phone": "+44 817457227",
+      "address": "250 Box Street, Reinerton, Indiana, 3621",
+      "registered": "2015-10-16T06:15:56.806Z"
+    },
+    {
+      "_id": "5d88a1b70014f9b591541cef",
+      "index": 7,
+      "uuid": "0db40f42-9c4c-4611-a630-0ff5f6ba9f1f",
+      "isActive": true,
+      "name": {
+        "first": "Aguilar",
+        "last": "Mercer"
+      },
+      "email": "aguilar.mercer@undefined.info",
+      "phone": "+44 953504340",
+      "address": "803 Harkness Avenue, Caberfae, Oregon, 3226",
+      "registered": "2017-01-16T16:50:14.064Z"
+    },
+    {
+      "_id": "5d88a1b707ed00712b27554a",
+      "index": 8,
+      "uuid": "9a937550-cef3-4ebc-b15e-28bb79c0482b",
+      "isActive": false,
+      "name": {
+        "first": "Alexandria",
+        "last": "Anderson"
+      },
+      "email": "alexandria.anderson@undefined.name",
+      "phone": "+44 983525230",
+      "address": "892 Columbus Place, Bascom, Iowa, 8893",
+      "registered": "2017-11-05T13:00:30.288Z"
+    },
+    {
+      "_id": "5d88a1b7170caf365033e664",
+      "index": 9,
+      "uuid": "f385d6ea-9057-4126-98c5-d1b5c97e33ff",
+      "isActive": true,
+      "name": {
+        "first": "Roberta",
+        "last": "Rosales"
+      },
+      "email": "roberta.rosales@undefined.net",
+      "phone": "+44 942476299",
+      "address": "154 Schenectady Avenue, Calvary, Ohio, 5932",
+      "registered": "2014-02-05T18:28:31.969Z"
+    },
+    {
+      "_id": "5d88a1b76bce71c00a91b829",
+      "index": 10,
+      "uuid": "00991c58-c5b9-42af-beb3-59ce11c85c82",
+      "isActive": false,
+      "name": {
+        "first": "Juana",
+        "last": "Jackson"
+      },
+      "email": "juana.jackson@undefined.com",
+      "phone": "+44 960495300",
+      "address": "657 Tompkins Avenue, Walton, Maryland, 5046",
+      "registered": "2017-11-22T11:29:26.167Z"
+    },
+    {
+      "_id": "5d88a1b73e97060b836b67c2",
+      "index": 11,
+      "uuid": "b3fbf357-6469-4c52-a1c1-22ca756f824b",
+      "isActive": true,
+      "name": {
+        "first": "Britney",
+        "last": "Stanton"
+      },
+      "email": "britney.stanton@undefined.org",
+      "phone": "+44 913479377",
+      "address": "530 Liberty Avenue, Edenburg, Michigan, 2889",
+      "registered": "2017-05-28T18:28:06.926Z"
+    },
+    {
+      "_id": "5d88a1b79c2bf0140a8e91a8",
+      "index": 12,
+      "uuid": "3b24ff78-ee79-411b-9a97-c86f1b5dcb80",
+      "isActive": false,
+      "name": {
+        "first": "Laurie",
+        "last": "Dixon"
+      },
+      "email": "laurie.dixon@undefined.io",
+      "phone": "+44 907436241",
+      "address": "836 Jefferson Street, Kidder, Connecticut, 4200",
+      "registered": "2015-11-06T06:17:00.053Z"
+    },
+    {
+      "_id": "5d88a1b73bca4e572bf9797f",
+      "index": 13,
+      "uuid": "e5b47b11-bbaa-4ca6-8abe-12ec0ea3b877",
+      "isActive": false,
+      "name": {
+        "first": "Leta",
+        "last": "Fletcher"
+      },
+      "email": "leta.fletcher@undefined.ca",
+      "phone": "+44 937504228",
+      "address": "851 Quincy Street, Sabillasville, Northern Mariana Islands, 2776",
+      "registered": "2014-06-25T01:22:41.160Z"
+    },
+    {
+      "_id": "5d88a1b7c2e1545851bdfc31",
+      "index": 14,
+      "uuid": "ab7d5d1f-18c3-4fae-b024-985ed031611e",
+      "isActive": false,
+      "name": {
+        "first": "Geneva",
+        "last": "Bond"
+      },
+      "email": "geneva.bond@undefined.us",
+      "phone": "+44 919589226",
+      "address": "652 Joval Court, Mayfair, Washington, 9040",
+      "registered": "2018-12-17T19:32:56.918Z"
+    },
+    {
+      "_id": "5d88a1b7d7f5ada0490aee9a",
+      "index": 15,
+      "uuid": "c5d2af3d-3a08-490f-93c5-cd6bb703e38c",
+      "isActive": true,
+      "name": {
+        "first": "Angelica",
+        "last": "Adkins"
+      },
+      "email": "angelica.adkins@undefined.tv",
+      "phone": "+44 827598220",
+      "address": "432 Ridge Boulevard, Gordon, Idaho, 6411",
+      "registered": "2015-08-25T22:50:20.592Z"
+    },
+    {
+      "_id": "5d88a1b721547cc6dc7dbe5e",
+      "index": 16,
+      "uuid": "6425978b-b7dd-486a-857b-b47cdee88d0b",
+      "isActive": true,
+      "name": {
+        "first": "Middleton",
+        "last": "Lane"
+      },
+      "email": "middleton.lane@undefined.biz",
+      "phone": "+44 940595248",
+      "address": "792 Knickerbocker Avenue, Winesburg, Guam, 7334",
+      "registered": "2014-11-18T14:25:05.326Z"
+    },
+    {
+      "_id": "5d88a1b792170b37cc84435a",
+      "index": 17,
+      "uuid": "545a81cc-523d-4d09-89b5-72117fb55899",
+      "isActive": true,
+      "name": {
+        "first": "Betsy",
+        "last": "Montoya"
+      },
+      "email": "betsy.montoya@undefined.co.uk",
+      "phone": "+44 862450249",
+      "address": "756 Guider Avenue, Orason, Alabama, 8093",
+      "registered": "2015-02-11T05:47:34.862Z"
+    },
+    {
+      "_id": "5d88a1b759d18a6cd318666c",
+      "index": 18,
+      "uuid": "0444645c-4460-4721-8fa7-e54d42ddeeb2",
+      "isActive": true,
+      "name": {
+        "first": "Camacho",
+        "last": "Durham"
+      },
+      "email": "camacho.durham@undefined.biz",
+      "phone": "+44 897424247",
+      "address": "254 Grace Court, Lisco, Kansas, 538",
+      "registered": "2017-07-19T14:17:48.781Z"
+    },
+    {
+      "_id": "5d88a1b7f9afac75970e940a",
+      "index": 19,
+      "uuid": "49dd0749-aace-4138-ac9f-454df57ae864",
+      "isActive": true,
+      "name": {
+        "first": "Noemi",
+        "last": "Clark"
+      },
+      "email": "noemi.clark@undefined.info",
+      "phone": "+44 810434364",
+      "address": "564 Bouck Court, Sugartown, Massachusetts, 8856",
+      "registered": "2015-04-10T15:50:57.595Z"
+    }
+  ],
+  "quotes": [
+    {
+      "_id": "5d88a5ac60f87dc6bcef0918",
+      "index": 0,
+      "uuid": "5876ac59-e859-48d4-8e6c-de18ff35c3a7",
+      "status": "ACTIVE",
+      "end_date": "2013-12-16T09:45:52.946Z",
+      "start_date": "2018-07-17T09:50:02.480Z",
+      "customer_uuid": "998f7c57-8fda-499e-bc05-852db6703f00",
+      "insured_entities": [
+        {
+          "uuid": "3b8664f9-1831-40c3-94b7-520bc30b1885",
+          "species": "CAT",
+          "name": "Mercedes",
+          "date_of_birth": "2016-12-19T00:45:49.051Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "420301f2-657d-4f55-a283-8e1c61d4c549",
+          "species": "DOG",
+          "name": "Georgette",
+          "date_of_birth": "2016-09-18T10:36:54.773Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "2f7a6d9c-05d5-497b-9d76-98ce2d2ba698",
+          "species": "DOG",
+          "name": "Mcmahon",
+          "date_of_birth": "2016-07-01T09:14:51.340Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "60b1310e-7589-4178-998b-67dabfed469d",
+          "species": "DOG",
+          "name": "Gertrude",
+          "date_of_birth": "2019-01-26T23:00:11.954Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "058bb513-f975-4de2-be69-ca40196b2718",
+          "species": "DOG",
+          "name": "Melva",
+          "date_of_birth": "2015-09-04T17:08:35.145Z",
+          "breed": "PEDIGREE"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "591.49",
+            "monthly": "64.57"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "1214.05",
+            "monthly": "497.17"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "6715.63",
+            "monthly": "186.28"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5acaae346c6370f526a",
+      "index": 1,
+      "uuid": "5b32bc76-45de-49ea-a437-58f769794081",
+      "status": "ACTIVE",
+      "end_date": "2017-12-16T12:14:22.440Z",
+      "start_date": "2019-06-02T07:57:50.611Z",
+      "customer_uuid": "2b07f75a-76ed-4deb-80dc-9530f2e17c11",
+      "insured_entities": [
+        {
+          "uuid": "c366dfe4-6f3a-427c-93bd-0b8e119d8bf2",
+          "species": "DOG",
+          "name": "Vinson",
+          "date_of_birth": "2018-06-24T18:47:16.844Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "a659c8bb-1cd3-4655-b4d7-dca4645971d2",
+          "species": "DOG",
+          "name": "Kinney",
+          "date_of_birth": "2018-10-05T09:22:14.039Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "d2a4c74d-615a-4e6a-98b1-e44418760b7f",
+          "species": "DOG",
+          "name": "Cannon",
+          "date_of_birth": "2010-08-14T12:36:40.576Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "2a4625a9-79af-4176-88c6-dc42603ec9ad",
+          "species": "CAT",
+          "name": "Morse",
+          "date_of_birth": "2013-11-27T00:14:48.486Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "623a9969-2bbf-40df-a671-7ac2bdcce36c",
+          "species": "DOG",
+          "name": "Roberta",
+          "date_of_birth": "2008-12-01T21:16:28.427Z",
+          "breed": "MIXED"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "879.61",
+            "monthly": "26.69"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "3860.55",
+            "monthly": "349.59"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "6963.49",
+            "monthly": "841.34"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5ac64c35ab5a141ca10",
+      "index": 2,
+      "uuid": "dccf3c06-3596-4cad-be82-ab3f40d3e47a",
+      "status": "CANCELLED",
+      "end_date": "2017-05-16T06:04:46.851Z",
+      "start_date": "2011-12-27T01:05:39.092Z",
+      "customer_uuid": "85f607be-33fe-46bd-b7ed-1ec19047276b",
+      "insured_entities": [
+        {
+          "uuid": "0449f855-8479-41c6-b9f8-7ce52312dc48",
+          "species": "DOG",
+          "name": "Hunt",
+          "date_of_birth": "2015-05-10T17:00:49.160Z",
+          "breed": "PEDIGREE"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "332.41",
+            "monthly": "65.16"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "4126.2",
+            "monthly": "61.68"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "5502.4",
+            "monthly": "764.87"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5acd54465530831e6dc",
+      "index": 3,
+      "uuid": "22618370-5464-41a8-870a-cccc60835623",
+      "status": "CANCELLED",
+      "end_date": "2011-07-11T09:02:49.583Z",
+      "start_date": "2013-11-29T11:17:18.005Z",
+      "customer_uuid": "fb2b4c61-940e-468a-ad92-69b05ca57e16",
+      "insured_entities": [
+        {
+          "uuid": "21681c26-3f84-4e5c-befa-c8d6cddf5de6",
+          "species": "CAT",
+          "name": "Nieves",
+          "date_of_birth": "2008-12-18T19:41:01.873Z",
+          "breed": "PEDIGREE"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "52.83",
+            "monthly": "62.46"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "2070.66",
+            "monthly": "51.85"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "7043.38",
+            "monthly": "640.77"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5acd0cdb90f80d659d0",
+      "index": 4,
+      "uuid": "5c0cb8ad-fc25-4972-8d39-11b0782a7d4d",
+      "status": "ACTIVE",
+      "end_date": "2016-12-22T03:13:40.714Z",
+      "start_date": "2011-02-03T08:35:21.482Z",
+      "customer_uuid": "b43aee0c-ffc0-4e71-ad2c-3b4c85f23731",
+      "insured_entities": [
+        {
+          "uuid": "cd167459-f773-45d7-92a7-3cdfc592d91a",
+          "species": "DOG",
+          "name": "Koch",
+          "date_of_birth": "2017-09-02T12:31:39.220Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "5e11daa9-28be-4ddb-ba16-53341dc62e31",
+          "species": "DOG",
+          "name": "Romero",
+          "date_of_birth": "2016-08-28T16:29:22.662Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "bd950d44-1bc6-4698-bcc3-f274b5036568",
+          "species": "CAT",
+          "name": "Forbes",
+          "date_of_birth": "2010-07-29T22:10:16.660Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "aa5a2157-e823-4ca9-86de-d632b8053bd6",
+          "species": "CAT",
+          "name": "Brittany",
+          "date_of_birth": "2010-09-22T14:40:40.060Z",
+          "breed": "MIXED"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "72.08",
+            "monthly": "13.7"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "3572.29",
+            "monthly": "229.64"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "8655.16",
+            "monthly": "913.22"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5acba52ddab71d5e752",
+      "index": 5,
+      "uuid": "e9a8e4a0-2125-4107-aab2-aa72f417598b",
+      "status": "LAPSED",
+      "end_date": "2014-11-03T01:44:49.901Z",
+      "start_date": "2016-07-13T03:58:21.566Z",
+      "customer_uuid": "093d88c9-ea45-4b05-abfa-644b1a1a6a8b",
+      "insured_entities": [
+        {
+          "uuid": "d4132322-fc52-4ff1-a897-cfce7bd517da",
+          "species": "DOG",
+          "name": "Nadia",
+          "date_of_birth": "2018-06-02T17:55:05.376Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "370da9d0-4353-43fe-83fc-5d9d532322db",
+          "species": "CAT",
+          "name": "Vincent",
+          "date_of_birth": "2015-12-02T03:32:22.110Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "8b83dd76-1ad8-422a-a929-595eb592df37",
+          "species": "DOG",
+          "name": "Hester",
+          "date_of_birth": "2015-01-21T02:12:20.542Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "01571753-e987-4612-8aaf-309ce08e037c",
+          "species": "CAT",
+          "name": "Conrad",
+          "date_of_birth": "2019-04-25T08:44:15.554Z",
+          "breed": "CROSS"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "546.61",
+            "monthly": "2.53"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "2703.17",
+            "monthly": "130.53"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "6899.88",
+            "monthly": "450.54"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5ace5a4f3669bef8749",
+      "index": 6,
+      "uuid": "ea830288-975c-40f2-a2a3-f1f74191453d",
+      "status": "ACTIVE",
+      "end_date": "2016-03-20T19:00:10.841Z",
+      "start_date": "2019-04-01T02:55:01.569Z",
+      "customer_uuid": "dda9ea3d-3117-4667-b671-6ee74f283a92",
+      "insured_entities": [
+        {
+          "uuid": "b92f168e-6fae-4527-8b5b-6903bf136692",
+          "species": "DOG",
+          "name": "Moore",
+          "date_of_birth": "2016-09-01T13:30:17.292Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "10d5a9dc-9488-4572-bb20-a00696179a6b",
+          "species": "CAT",
+          "name": "Singleton",
+          "date_of_birth": "2008-02-05T19:59:26.083Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "576ac861-504f-402b-9341-691ea66db5c1",
+          "species": "CAT",
+          "name": "Merrill",
+          "date_of_birth": "2011-12-05T09:55:37.167Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "9d96d909-279d-4dc7-b833-e567f41f1948",
+          "species": "DOG",
+          "name": "Madeline",
+          "date_of_birth": "2018-02-07T13:37:05.393Z",
+          "breed": "MIXED"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "600.68",
+            "monthly": "35.17"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "4024.12",
+            "monthly": "202.33"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "8642.6",
+            "monthly": "318.11"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5ac54e19fb7c7dbdc21",
+      "index": 7,
+      "uuid": "1bcb88cd-c910-4854-8535-921c3fe3e5f6",
+      "status": "CANCELLED",
+      "end_date": "2019-08-08T20:26:01.955Z",
+      "start_date": "2016-08-14T00:50:06.680Z",
+      "customer_uuid": "0db40f42-9c4c-4611-a630-0ff5f6ba9f1f",
+      "insured_entities": [
+        {
+          "uuid": "2b051fd3-47c8-43c3-857e-603ae5168572",
+          "species": "CAT",
+          "name": "Estes",
+          "date_of_birth": "2014-06-19T18:40:27.116Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "429d5ba9-6f56-449f-a678-05755db40aa6",
+          "species": "DOG",
+          "name": "Grimes",
+          "date_of_birth": "2019-04-23T07:24:04.705Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "c93c60ba-26b2-4c06-882d-2c5338c4ba0a",
+          "species": "CAT",
+          "name": "Hardy",
+          "date_of_birth": "2018-12-01T23:23:34.712Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "99358111-a137-4dd4-b249-e42cb6911b2f",
+          "species": "DOG",
+          "name": "Murray",
+          "date_of_birth": "2013-12-23T09:59:12.133Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "125c1ceb-8710-4165-a607-c7beeed96413",
+          "species": "DOG",
+          "name": "Erica",
+          "date_of_birth": "2011-07-17T06:03:25.556Z",
+          "breed": "CROSS"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "790.98",
+            "monthly": "15.38"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "3390.78",
+            "monthly": "238.29"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "9681.3",
+            "monthly": "989.01"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5ac9df612f975710b53",
+      "index": 8,
+      "uuid": "b70e4f99-b698-4a79-be76-c353f37ba630",
+      "status": "LAPSED",
+      "end_date": "2019-09-12T07:19:26.074Z",
+      "start_date": "2017-01-16T00:05:58.407Z",
+      "customer_uuid": "9a937550-cef3-4ebc-b15e-28bb79c0482b",
+      "insured_entities": [
+        {
+          "uuid": "9b30d3a5-e803-452e-9976-6200804abd95",
+          "species": "CAT",
+          "name": "Abigail",
+          "date_of_birth": "2011-08-05T14:50:16.923Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "0dfd2027-6f83-4ad3-a1af-192d6df99ce8",
+          "species": "CAT",
+          "name": "Jenifer",
+          "date_of_birth": "2009-12-29T19:19:34.496Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "352e53d4-f401-4496-b661-1e2fa6763393",
+          "species": "DOG",
+          "name": "Carver",
+          "date_of_birth": "2018-12-22T12:29:27.352Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "8093aa5d-f0c8-4d9e-b3ca-63fdacc58ee3",
+          "species": "DOG",
+          "name": "Tamera",
+          "date_of_birth": "2015-11-06T17:25:50.373Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "df306080-f043-44c4-b4ec-4a61dc2aaa0e",
+          "species": "CAT",
+          "name": "Margret",
+          "date_of_birth": "2013-08-12T15:27:09.660Z",
+          "breed": "PEDIGREE"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "633.96",
+            "monthly": "61.29"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "1929.15",
+            "monthly": "489.07"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "5414.14",
+            "monthly": "135.04"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5ace1c7055bd875d96f",
+      "index": 9,
+      "uuid": "41654b68-c6e3-4100-8b34-13ea026d01a6",
+      "status": "CANCELLED",
+      "end_date": "2019-03-18T17:05:12.767Z",
+      "start_date": "2008-11-03T16:34:05.704Z",
+      "customer_uuid": "f385d6ea-9057-4126-98c5-d1b5c97e33ff",
+      "insured_entities": [
+        {
+          "uuid": "d77469fe-c973-476f-b8bb-838229b68670",
+          "species": "DOG",
+          "name": "Morales",
+          "date_of_birth": "2008-05-30T13:27:02.698Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "fce3297e-f60c-455e-9b38-776119a34dae",
+          "species": "DOG",
+          "name": "Swanson",
+          "date_of_birth": "2009-04-16T23:56:45.666Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "317b29c4-c3a0-4b31-ac2e-0537ef1550fd",
+          "species": "DOG",
+          "name": "Short",
+          "date_of_birth": "2015-04-20T19:13:37.362Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "4a862294-5bec-4e34-b1a2-df3a0d16e8b2",
+          "species": "CAT",
+          "name": "Harrington",
+          "date_of_birth": "2009-12-26T17:08:59.889Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "eb5a8129-c205-49fa-a27e-463f523d867d",
+          "species": "DOG",
+          "name": "Colleen",
+          "date_of_birth": "2009-04-21T17:30:00.842Z",
+          "breed": "CROSS"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "849.64",
+            "monthly": "46.39"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "1888.68",
+            "monthly": "123.79"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "8848.21",
+            "monthly": "369.07"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5ac6a80da3b40dbf8af",
+      "index": 10,
+      "uuid": "af085956-9a0a-43fb-b744-04eeaebe749e",
+      "status": "CANCELLED",
+      "end_date": "2012-10-09T07:54:27.169Z",
+      "start_date": "2014-12-29T18:43:55.430Z",
+      "customer_uuid": "00991c58-c5b9-42af-beb3-59ce11c85c82",
+      "insured_entities": [
+        {
+          "uuid": "962a3fcb-0e52-457f-ab02-ed16748e3f4e",
+          "species": "CAT",
+          "name": "Cunningham",
+          "date_of_birth": "2014-02-19T11:41:07.561Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "1902148b-2cab-45ae-acfc-35344421e89d",
+          "species": "CAT",
+          "name": "Haley",
+          "date_of_birth": "2015-03-28T10:15:04.307Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "de7484d7-4273-41c4-824f-840ee48237f7",
+          "species": "CAT",
+          "name": "Wells",
+          "date_of_birth": "2008-04-06T18:18:08.077Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "505f6ddb-8fb2-484a-9c0b-62499e5e5753",
+          "species": "CAT",
+          "name": "Berta",
+          "date_of_birth": "2016-12-30T22:20:38.622Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "67e0c323-08d3-4a37-8912-4515be1f7125",
+          "species": "CAT",
+          "name": "Nanette",
+          "date_of_birth": "2015-12-19T17:47:54.201Z",
+          "breed": "CROSS"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "165.8",
+            "monthly": "85.56"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "4505.29",
+            "monthly": "402.03"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": 7757,
+            "monthly": "719.27"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5acf90c005786dfbf36",
+      "index": 11,
+      "uuid": "24c570bd-1bad-48c8-98dd-55c0310efe2e",
+      "status": "CANCELLED",
+      "end_date": "2015-05-13T07:40:46.348Z",
+      "start_date": "2013-05-29T22:38:14.793Z",
+      "customer_uuid": "b3fbf357-6469-4c52-a1c1-22ca756f824b",
+      "insured_entities": [
+        {
+          "uuid": "7f6cc77a-1f03-4ec1-912d-f5928cf296b7",
+          "species": "DOG",
+          "name": "Atkinson",
+          "date_of_birth": "2012-09-30T22:26:50.491Z",
+          "breed": "PEDIGREE"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "798.98",
+            "monthly": "33.65"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "2505.45",
+            "monthly": "320.52"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "9372.03",
+            "monthly": "15.45"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5acfd0c1fef6dfb2cbe",
+      "index": 12,
+      "uuid": "e96e1a53-0736-43a3-82c3-132082b3b57c",
+      "status": "LAPSED",
+      "end_date": "2019-08-02T08:56:45.897Z",
+      "start_date": "2009-02-10T15:28:26.130Z",
+      "customer_uuid": "b3fbf357-6469-4c52-a1c1-22ca756f824b",
+      "insured_entities": [
+        {
+          "uuid": "07638b6b-11ce-4e25-90c6-63250b9017ec",
+          "species": "CAT",
+          "name": "Moody",
+          "date_of_birth": "2016-10-24T16:02:35.325Z",
+          "breed": "CROSS"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "119.11",
+            "monthly": "42.49"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "2759.17",
+            "monthly": "146.02"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "8566.61",
+            "monthly": "758.4"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5acc1f5e8e5afc83a41",
+      "index": 13,
+      "uuid": "4e03c69b-e98e-4b1c-bae5-24af93ee7bc9",
+      "status": "LAPSED",
+      "end_date": "2014-01-27T20:49:38.550Z",
+      "start_date": "2013-12-08T21:25:19.865Z",
+      "customer_uuid": "545a81cc-523d-4d09-89b5-72117fb55899",
+      "insured_entities": [
+        {
+          "uuid": "8b2ff9ed-ca56-4bb6-9ef3-cd50462fc3ce",
+          "species": "DOG",
+          "name": "Santos",
+          "date_of_birth": "2008-08-23T12:02:43.600Z",
+          "breed": "PEDIGREE"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "273.79",
+            "monthly": "93.11"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "1574.61",
+            "monthly": "262.81"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "7476.84",
+            "monthly": "412.08"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5d88a5acdba83b144fb9962c",
+      "index": 14,
+      "uuid": "eead9405-89e8-4419-9ff2-8e66dc38a8d7",
+      "status": "ACTIVE",
+      "end_date": "2016-08-14T11:16:01.797Z",
+      "start_date": "2019-09-18T21:41:59.771Z",
+      "customer_uuid": "545a81cc-523d-4d09-89b5-72117fb55899",
+      "insured_entities": [
+        {
+          "uuid": "d9e4ef1f-31cc-4c6f-8b53-0666a7aa1406",
+          "species": "CAT",
+          "name": "Navarro",
+          "date_of_birth": "2017-04-24T00:35:58.477Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "f941c221-20bd-4701-ae3d-c6a9d1aaee16",
+          "species": "CAT",
+          "name": "Miriam",
+          "date_of_birth": "2010-10-02T13:09:18.050Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "db08ca4a-5df7-4de1-ae33-e180f82bd6e0",
+          "species": "DOG",
+          "name": "Lula",
+          "date_of_birth": "2011-12-16T22:07:59.429Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "1011e311-b13c-4ffd-86a7-a3c31ba3e17a",
+          "species": "CAT",
+          "name": "Sofia",
+          "date_of_birth": "2017-05-10T17:01:52.496Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "6e739018-d3e0-4050-b097-ed84e0cced21",
+          "species": "CAT",
+          "name": "Delaney",
+          "date_of_birth": "2018-01-28T18:55:26.858Z",
+          "breed": "MIXED"
+        }
+      ],
+      "products": [
+        {
+          "type": "BASIC",
+          "price": {
+            "annual": "396.45",
+            "monthly": "14.85"
+          }
+        },
+        {
+          "type": "STANDARD",
+          "price": {
+            "annual": "2312.98",
+            "monthly": "399.48"
+          }
+        },
+        {
+          "type": "SUPERIOR",
+          "price": {
+            "annual": "8150.51",
+            "monthly": "266.67"
+          }
+        }
+      ]
+    }
+  ],
+  "policies": [
+    {
+      "_id": "5d88a5ac60f87dc6bcef0918",
+      "index": 0,
+      "uuid": "1969da6a-6a58-4191-b654-b02666d1efcc",
+      "quote_uuid": "5876ac59-e859-48d4-8e6c-de18ff35c3a7",
+      "status": "ACTIVE",
+      "end_date": "2013-12-16T09:45:52.946Z",
+      "start_date": "2018-07-17T09:50:02.480Z",
+      "customer_uuid": "998f7c57-8fda-499e-bc05-852db6703f00",
+      "insured_entities": [
+        {
+          "uuid": "3b8664f9-1831-40c3-94b7-520bc30b1885",
+          "species": "CAT",
+          "name": "Mercedes",
+          "date_of_birth": "2016-12-19T00:45:49.051Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "420301f2-657d-4f55-a283-8e1c61d4c549",
+          "species": "DOG",
+          "name": "Georgette",
+          "date_of_birth": "2016-09-18T10:36:54.773Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "2f7a6d9c-05d5-497b-9d76-98ce2d2ba698",
+          "species": "DOG",
+          "name": "Mcmahon",
+          "date_of_birth": "2016-07-01T09:14:51.340Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "60b1310e-7589-4178-998b-67dabfed469d",
+          "species": "DOG",
+          "name": "Gertrude",
+          "date_of_birth": "2019-01-26T23:00:11.954Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "058bb513-f975-4de2-be69-ca40196b2718",
+          "species": "DOG",
+          "name": "Melva",
+          "date_of_birth": "2015-09-04T17:08:35.145Z",
+          "breed": "PEDIGREE"
+        }
+      ],
+      "product": {
+        "type": "BASIC",
+        "price": {
+          "annual": "591.49",
+          "monthly": "64.57"
+        }
+      }
+    },
+    {
+      "_id": "5d88a5acaae346c6370f526a",
+      "index": 1,
+      "uuid": "204df552-887a-457c-8144-a9e9742e0436",
+      "quote_uuid": "5b32bc76-45de-49ea-a437-58f769794081",
+      "status": "ACTIVE",
+      "end_date": "2017-12-16T12:14:22.440Z",
+      "start_date": "2019-06-02T07:57:50.611Z",
+      "customer_uuid": "2b07f75a-76ed-4deb-80dc-9530f2e17c11",
+      "insured_entities": [
+        {
+          "uuid": "c366dfe4-6f3a-427c-93bd-0b8e119d8bf2",
+          "species": "DOG",
+          "name": "Vinson",
+          "date_of_birth": "2018-06-24T18:47:16.844Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "a659c8bb-1cd3-4655-b4d7-dca4645971d2",
+          "species": "DOG",
+          "name": "Kinney",
+          "date_of_birth": "2018-10-05T09:22:14.039Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "d2a4c74d-615a-4e6a-98b1-e44418760b7f",
+          "species": "DOG",
+          "name": "Cannon",
+          "date_of_birth": "2010-08-14T12:36:40.576Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "2a4625a9-79af-4176-88c6-dc42603ec9ad",
+          "species": "CAT",
+          "name": "Morse",
+          "date_of_birth": "2013-11-27T00:14:48.486Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "623a9969-2bbf-40df-a671-7ac2bdcce36c",
+          "species": "DOG",
+          "name": "Roberta",
+          "date_of_birth": "2008-12-01T21:16:28.427Z",
+          "breed": "MIXED"
+        }
+      ],
+      "product": {
+        "type": "STANDARD",
+        "price": {
+          "annual": "3860.55",
+          "monthly": "349.59"
+        }
+      }
+    },
+    {
+      "_id": "5d88a5ac64c35ab5a141ca10",
+      "index": 2,
+      "uuid": "5392ffef-829f-4463-9401-e1e3239b42a3",
+      "quote_uuid": "dccf3c06-3596-4cad-be82-ab3f40d3e47a",
+      "status": "CANCELLED",
+      "end_date": "2017-05-16T06:04:46.851Z",
+      "start_date": "2011-12-27T01:05:39.092Z",
+      "customer_uuid": "85f607be-33fe-46bd-b7ed-1ec19047276b",
+      "insured_entities": [
+        {
+          "uuid": "0449f855-8479-41c6-b9f8-7ce52312dc48",
+          "species": "DOG",
+          "name": "Hunt",
+          "date_of_birth": "2015-05-10T17:00:49.160Z",
+          "breed": "PEDIGREE"
+        }
+      ],
+      "product": {
+        "type": "SUPERIOR",
+        "price": {
+          "annual": "5502.4",
+          "monthly": "764.87"
+        }
+      }
+    },
+    {
+      "_id": "5d88a5acd54465530831e6dc",
+      "index": 3,
+      "uuid": "27cb2b33-0934-4b2a-b3bd-244ef04f14b7",
+      "quote_uuid": "22618370-5464-41a8-870a-cccc60835623",
+      "status": "CANCELLED",
+      "end_date": "2011-07-11T09:02:49.583Z",
+      "start_date": "2013-11-29T11:17:18.005Z",
+      "customer_uuid": "fb2b4c61-940e-468a-ad92-69b05ca57e16",
+      "insured_entities": [
+        {
+          "uuid": "21681c26-3f84-4e5c-befa-c8d6cddf5de6",
+          "species": "CAT",
+          "name": "Nieves",
+          "date_of_birth": "2008-12-18T19:41:01.873Z",
+          "breed": "PEDIGREE"
+        }
+      ],
+      "product": {
+        "type": "STANDARD",
+        "price": {
+          "annual": "2070.66",
+          "monthly": "51.85"
+        }
+      }
+    },
+    {
+      "_id": "5d88a5acd0cdb90f80d659d0",
+      "index": 4,
+      "uuid": "cf6fba2c-931a-4c87-8e05-61561c669b0e",
+      "quote_uuid": "5c0cb8ad-fc25-4972-8d39-11b0782a7d4d",
+      "status": "ACTIVE",
+      "end_date": "2016-12-22T03:13:40.714Z",
+      "start_date": "2011-02-03T08:35:21.482Z",
+      "customer_uuid": "b43aee0c-ffc0-4e71-ad2c-3b4c85f23731",
+      "insured_entities": [
+        {
+          "uuid": "cd167459-f773-45d7-92a7-3cdfc592d91a",
+          "species": "DOG",
+          "name": "Koch",
+          "date_of_birth": "2017-09-02T12:31:39.220Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "5e11daa9-28be-4ddb-ba16-53341dc62e31",
+          "species": "DOG",
+          "name": "Romero",
+          "date_of_birth": "2016-08-28T16:29:22.662Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "bd950d44-1bc6-4698-bcc3-f274b5036568",
+          "species": "CAT",
+          "name": "Forbes",
+          "date_of_birth": "2010-07-29T22:10:16.660Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "aa5a2157-e823-4ca9-86de-d632b8053bd6",
+          "species": "CAT",
+          "name": "Brittany",
+          "date_of_birth": "2010-09-22T14:40:40.060Z",
+          "breed": "MIXED"
+        }
+      ],
+      "product": {
+        "type": "SUPERIOR",
+        "price": {
+          "annual": "8655.16",
+          "monthly": "913.22"
+        }
+      }
+    },
+    {
+      "_id": "5d88a5acba52ddab71d5e752",
+      "index": 5,
+      "uuid": "30deb361-f9a2-4367-a3c2-ab8061c2331c",
+      "quote_uuid": "e9a8e4a0-2125-4107-aab2-aa72f417598b",
+      "status": "LAPSED",
+      "end_date": "2014-11-03T01:44:49.901Z",
+      "start_date": "2016-07-13T03:58:21.566Z",
+      "customer_uuid": "093d88c9-ea45-4b05-abfa-644b1a1a6a8b",
+      "insured_entities": [
+        {
+          "uuid": "d4132322-fc52-4ff1-a897-cfce7bd517da",
+          "species": "DOG",
+          "name": "Nadia",
+          "date_of_birth": "2018-06-02T17:55:05.376Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "370da9d0-4353-43fe-83fc-5d9d532322db",
+          "species": "CAT",
+          "name": "Vincent",
+          "date_of_birth": "2015-12-02T03:32:22.110Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "8b83dd76-1ad8-422a-a929-595eb592df37",
+          "species": "DOG",
+          "name": "Hester",
+          "date_of_birth": "2015-01-21T02:12:20.542Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "01571753-e987-4612-8aaf-309ce08e037c",
+          "species": "CAT",
+          "name": "Conrad",
+          "date_of_birth": "2019-04-25T08:44:15.554Z",
+          "breed": "CROSS"
+        }
+      ],
+      "product": {
+        "type": "STANDARD",
+        "price": {
+          "annual": "2703.17",
+          "monthly": "130.53"
+        }
+      }
+    },
+    {
+      "_id": "5d88a5ace5a4f3669bef8749",
+      "index": 6,
+      "uuid": "60e61edd-98fd-411d-8458-237ca1ea1c0f",
+      "quote_uuid": "ea830288-975c-40f2-a2a3-f1f74191453d",
+      "status": "ACTIVE",
+      "end_date": "2016-03-20T19:00:10.841Z",
+      "start_date": "2019-04-01T02:55:01.569Z",
+      "customer_uuid": "dda9ea3d-3117-4667-b671-6ee74f283a92",
+      "insured_entities": [
+        {
+          "uuid": "b92f168e-6fae-4527-8b5b-6903bf136692",
+          "species": "DOG",
+          "name": "Moore",
+          "date_of_birth": "2016-09-01T13:30:17.292Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "10d5a9dc-9488-4572-bb20-a00696179a6b",
+          "species": "CAT",
+          "name": "Singleton",
+          "date_of_birth": "2008-02-05T19:59:26.083Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "576ac861-504f-402b-9341-691ea66db5c1",
+          "species": "CAT",
+          "name": "Merrill",
+          "date_of_birth": "2011-12-05T09:55:37.167Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "9d96d909-279d-4dc7-b833-e567f41f1948",
+          "species": "DOG",
+          "name": "Madeline",
+          "date_of_birth": "2018-02-07T13:37:05.393Z",
+          "breed": "MIXED"
+        }
+      ],
+      "product": {
+        "type": "BASIC",
+        "price": {
+          "annual": "600.68",
+          "monthly": "35.17"
+        }
+      }
+    },
+    {
+      "_id": "5d88a5ac54e19fb7c7dbdc21",
+      "index": 7,
+      "uuid": "6e86115d-2a06-48b8-ad68-694581ac97e3",
+      "quote_uuid": "1bcb88cd-c910-4854-8535-921c3fe3e5f6",
+      "status": "CANCELLED",
+      "end_date": "2019-08-08T20:26:01.955Z",
+      "start_date": "2016-08-14T00:50:06.680Z",
+      "customer_uuid": "0db40f42-9c4c-4611-a630-0ff5f6ba9f1f",
+      "insured_entities": [
+        {
+          "uuid": "2b051fd3-47c8-43c3-857e-603ae5168572",
+          "species": "CAT",
+          "name": "Estes",
+          "date_of_birth": "2014-06-19T18:40:27.116Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "429d5ba9-6f56-449f-a678-05755db40aa6",
+          "species": "DOG",
+          "name": "Grimes",
+          "date_of_birth": "2019-04-23T07:24:04.705Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "c93c60ba-26b2-4c06-882d-2c5338c4ba0a",
+          "species": "CAT",
+          "name": "Hardy",
+          "date_of_birth": "2018-12-01T23:23:34.712Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "99358111-a137-4dd4-b249-e42cb6911b2f",
+          "species": "DOG",
+          "name": "Murray",
+          "date_of_birth": "2013-12-23T09:59:12.133Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "125c1ceb-8710-4165-a607-c7beeed96413",
+          "species": "DOG",
+          "name": "Erica",
+          "date_of_birth": "2011-07-17T06:03:25.556Z",
+          "breed": "CROSS"
+        }
+      ],
+      "product": {
+        "type": "STANDARD",
+        "price": {
+          "annual": "3390.78",
+          "monthly": "238.29"
+        }
+      }
+    },
+    {
+      "_id": "5d88a5ac9df612f975710b53",
+      "index": 8,
+      "uuid": "a5a41f38-13c5-4751-95dc-a479de2fc03d",
+      "quote_uuid": "b70e4f99-b698-4a79-be76-c353f37ba630",
+      "status": "LAPSED",
+      "end_date": "2019-09-12T07:19:26.074Z",
+      "start_date": "2017-01-16T00:05:58.407Z",
+      "customer_uuid": "9a937550-cef3-4ebc-b15e-28bb79c0482b",
+      "insured_entities": [
+        {
+          "uuid": "9b30d3a5-e803-452e-9976-6200804abd95",
+          "species": "CAT",
+          "name": "Abigail",
+          "date_of_birth": "2011-08-05T14:50:16.923Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "0dfd2027-6f83-4ad3-a1af-192d6df99ce8",
+          "species": "CAT",
+          "name": "Jenifer",
+          "date_of_birth": "2009-12-29T19:19:34.496Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "352e53d4-f401-4496-b661-1e2fa6763393",
+          "species": "DOG",
+          "name": "Carver",
+          "date_of_birth": "2018-12-22T12:29:27.352Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "8093aa5d-f0c8-4d9e-b3ca-63fdacc58ee3",
+          "species": "DOG",
+          "name": "Tamera",
+          "date_of_birth": "2015-11-06T17:25:50.373Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "df306080-f043-44c4-b4ec-4a61dc2aaa0e",
+          "species": "CAT",
+          "name": "Margret",
+          "date_of_birth": "2013-08-12T15:27:09.660Z",
+          "breed": "PEDIGREE"
+        }
+      ],
+      "product": {
+        "type": "STANDARD",
+        "price": {
+          "annual": "1929.15",
+          "monthly": "489.07"
+        }
+      }
+    },
+    {
+      "_id": "5d88a5ace1c7055bd875d96f",
+      "index": 9,
+      "quote_uuid": "41654b68-c6e3-4100-8b34-13ea026d01a6",
+      "status": "CANCELLED",
+      "end_date": "2019-03-18T17:05:12.767Z",
+      "start_date": "2008-11-03T16:34:05.704Z",
+      "customer_uuid": "f385d6ea-9057-4126-98c5-d1b5c97e33ff",
+      "insured_entities": [
+        {
+          "uuid": "d77469fe-c973-476f-b8bb-838229b68670",
+          "species": "DOG",
+          "name": "Morales",
+          "date_of_birth": "2008-05-30T13:27:02.698Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "fce3297e-f60c-455e-9b38-776119a34dae",
+          "species": "DOG",
+          "name": "Swanson",
+          "date_of_birth": "2009-04-16T23:56:45.666Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "317b29c4-c3a0-4b31-ac2e-0537ef1550fd",
+          "species": "DOG",
+          "name": "Short",
+          "date_of_birth": "2015-04-20T19:13:37.362Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "4a862294-5bec-4e34-b1a2-df3a0d16e8b2",
+          "species": "CAT",
+          "name": "Harrington",
+          "date_of_birth": "2009-12-26T17:08:59.889Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "eb5a8129-c205-49fa-a27e-463f523d867d",
+          "species": "DOG",
+          "name": "Colleen",
+          "date_of_birth": "2009-04-21T17:30:00.842Z",
+          "breed": "CROSS"
+        }
+      ],
+      "product": {
+        "type": "STANDARD",
+        "price": {
+          "annual": "1888.68",
+          "monthly": "123.79"
+        }
+      }
+    },
+    {
+      "_id": "5d88a5ac6a80da3b40dbf8af",
+      "index": 10,
+      "uuid": "a028fe42-9756-4433-9dce-e2928327348a",
+      "quote_uuid": "af085956-9a0a-43fb-b744-04eeaebe749e",
+      "status": "CANCELLED",
+      "end_date": "2012-10-09T07:54:27.169Z",
+      "start_date": "2014-12-29T18:43:55.430Z",
+      "customer_uuid": "00991c58-c5b9-42af-beb3-59ce11c85c82",
+      "insured_entities": [
+        {
+          "uuid": "962a3fcb-0e52-457f-ab02-ed16748e3f4e",
+          "species": "CAT",
+          "name": "Cunningham",
+          "date_of_birth": "2014-02-19T11:41:07.561Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "1902148b-2cab-45ae-acfc-35344421e89d",
+          "species": "CAT",
+          "name": "Haley",
+          "date_of_birth": "2015-03-28T10:15:04.307Z",
+          "breed": "CROSS"
+        },
+        {
+          "uuid": "de7484d7-4273-41c4-824f-840ee48237f7",
+          "species": "CAT",
+          "name": "Wells",
+          "date_of_birth": "2008-04-06T18:18:08.077Z",
+          "breed": "MIXED"
+        },
+        {
+          "uuid": "505f6ddb-8fb2-484a-9c0b-62499e5e5753",
+          "species": "CAT",
+          "name": "Berta",
+          "date_of_birth": "2016-12-30T22:20:38.622Z",
+          "breed": "PEDIGREE"
+        },
+        {
+          "uuid": "67e0c323-08d3-4a37-8912-4515be1f7125",
+          "species": "CAT",
+          "name": "Nanette",
+          "date_of_birth": "2015-12-19T17:47:54.201Z",
+          "breed": "CROSS"
+        }
+      ],
+      "product": {
+        "type": "SUPERIOR",
+        "price": {
+          "annual": 7757,
+          "monthly": "719.27"
+        }
+      }
+    }
+  ]
+}

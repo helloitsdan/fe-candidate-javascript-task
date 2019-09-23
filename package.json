@@ -1,0 +1,23 @@
+{
+  "name": "fe-candidate-javascript-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "npm run db & vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "db": "json-server db.json"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "json-server": "^0.15.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "bulma": "^0.7.5",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

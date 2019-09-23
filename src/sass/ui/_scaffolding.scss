@@ -1,0 +1,161 @@
+// .visible-xxs-block,
+// .visible-xs-block,
+// .visible-sm-block,
+// .visible-md-block,
+// .visible-xlg-block,
+.visible-xxs-inline,
+.visible-xs-inline,
+.visible-sm-inline,
+.visible-md-inline,
+.visible-lg-inline,
+.visible-xxs,
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg,
+.visible-xl {
+  display: none !important;
+}
+
+@include breakpoint(xxs-only) {
+  .visible-xxs {
+    display: block !important;
+  }
+  .visible-xxs-inline {
+    display: inline !important;
+  }
+  table.visible-xxs {
+    display: table !important;
+  }
+  tr.visible-xxs {
+    display: table-row !important;
+  }
+  th.visible-xxs,
+  td.visible-xxs {
+    display: table-cell !important;
+  }
+  .hidden-xxs {
+    display: none !important;
+  }
+}
+@include breakpoint(xs-only) {
+  .visible-xs {
+    display: block !important;
+  }
+  .visible-xs-inline {
+    display: inline !important;
+  }
+  table.visible-xs {
+    display: table !important;
+  }
+  tr.visible-xs {
+    display: table-row !important;
+  }
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+@include breakpoint(sm-only) {
+  .visible-sm {
+    display: block !important;
+  }
+  .visible-sm-inline {
+    display: inline !important;
+  }
+  table.visible-sm {
+    display: table !important;
+  }
+  tr.visible-sm {
+    display: table-row !important;
+  }
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important;
+  }
+  .hidden-sm {
+    display: none !important;
+  }
+}
+
+@include breakpoint(md-only) {
+  .visible-md {
+    display: block !important;
+  }
+  .visible-md-inline {
+    display: inline !important;
+  }
+  table.visible-md {
+    display: table !important;
+  }
+  tr.visible-md {
+    display: table-row !important;
+  }
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important;
+  }
+  .hidden-md {
+    display: none !important;
+  }
+}
+
+@include breakpoint(lg-only) {
+  .visible-lg {
+    display: block !important;
+  }
+  .visible-lg-inline {
+    display: inline !important;
+  }
+  table.visible-lg {
+    display: table !important;
+  }
+  tr.visible-lg {
+    display: table-row !important;
+  }
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important;
+  }
+  .hidden-lg {
+    display: none !important;
+  }
+}
+
+@include breakpoint(xl-only) {
+  .visible-xl {
+    display: block !important;
+  }
+  .visible-xl-inline {
+    display: inline !important;
+  }
+  table.visible-xl {
+    display: table !important;
+  }
+  tr.visible-xl {
+    display: table-row !important;
+  }
+  th.visible-xl,
+  td.visible-xl {
+    display: table-cell !important;
+  }
+  .hidden-xl {
+    display: none !important;
+  }
+}
+
+.sr-only {
+    @include sr-only()
+}
+
+.display-block {
+    display: block;
+}
+
+.hide {
+    display: none !important;
+}

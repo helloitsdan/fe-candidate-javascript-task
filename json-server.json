@@ -1,0 +1,6 @@
+{
+  "watch": false,
+  "read-only": true,
+  "id": "uuid",
+  "foreignKeySuffix": "_uuid"
+}

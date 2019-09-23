@@ -1,0 +1,344 @@
+
+@mixin font--hero {
+  font-size: $font-size-hero--mob;
+  line-height: $line-height-hero--mob;
+
+  @include breakpoint(xs-up) {
+    font-size: $font-size-hero;
+    line-height: $line-height-hero;
+  }
+}
+
+@mixin font--xlarge {
+  font-size: $font-size-hero--mob;
+  line-height: $line-height-hero--mob;
+
+  @include breakpoint(xs-up) {
+    font-size: $font-size-hero;
+    line-height: $line-height-hero;
+  }
+}
+
+@mixin font--large {
+  font-size: $font-size-large--mob;
+  line-height: $line-height-large--mob;
+
+  @include breakpoint(xs-up) {
+    font-size: $font-size-large;
+    line-height: $line-height-large;
+  }
+}
+
+@mixin font--medium {
+  font-size: $font-size-medium--mob;
+  line-height: $line-height-medium--mob;
+
+  @include breakpoint(xs-up) {
+    font-size: $font-size-medium;
+    line-height: $line-height-medium;
+  }
+}
+
+@mixin font--lead {
+  font-size: $font-size-lead--mob;
+  line-height: $line-height-lead--mob;
+
+  @include breakpoint(xs-up) {
+    font-size: $font-size-lead;
+    line-height: $line-height-lead;
+  }
+}
+
+@mixin font--normal {
+  font-size: $font-size-normal;
+  line-height: $line-height-normal;
+}
+
+@mixin font--small {
+  font-size: $font-size-small;
+  line-height: $line-height-small;
+}
+
+@mixin font--micro {
+  font-size: $font-size-micro;
+  line-height: $line-height-micro;
+}
+
+@mixin font--nano {
+  font-size: $font-size-nano;
+  line-height: $line-height-nano;
+}
+
+@mixin link {
+  border-bottom: 2px solid $color-eire;
+  box-shadow: 0 0 0 transparent;
+  color: $text-color;
+  padding-bottom: 1px;
+  text-decoration: none;
+  transition: box-shadow $animation-speed ease;
+
+  &:hover {
+    box-shadow: 0 1px 0 $color-eire;
+    color: $black;
+  }
+}
+
+@mixin shadow {
+  box-shadow: 0 1px 4px 0 rgba($color-sailor, 0.15);
+}
+
+@mixin button {
+  @include font--normal;
+
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  color: $text-color;
+  display: inline-block;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  transition:
+    background-color $animation-speed--fast ease-in,
+    border $animation-speed--fast ease-in,
+    color $animation-speed--fast ease-in;
+
+  border-color: transparent;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 2px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: $pad-v--xxs $pad-h--md;
+  text-align: center; // For when full-width within flex item
+
+  // font smoothing to alias text
+  // Assists with consistent aliasing where there is
+  // strange rendering of button within fixed header
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  &[disabled] {
+    cursor: not-allowed;
+  }
+}
+
+@mixin button--primary {
+  background-color: $color-eire;
+  color: $white;
+
+  &:hover {
+    background-color: $color-eire-darker;
+  }
+
+  &[disabled],
+  &[disabled]:hover {
+    background: $grey-mid-light;
+    border-color: transparent;
+    color: $white;
+  }
+}
+
+@mixin button--secondary {
+  background-color: transparent;
+  border-color: $color-eire;
+  color: $text-color;
+
+  &:hover {
+    background-color: $color-eire;
+    color: $white;
+  }
+
+  &[disabled],
+  &[disabled]:hover {
+    background: transparent;
+    border-color: $grey-mid-light;
+    color: $grey-mid-light;
+  }
+}
+
+@mixin button--active {
+  background-color: $color-sailor;
+  border-color: $color-sailor;
+  color: $white;
+
+  &:hover {
+    background-color: $color-sailor-hover;
+    color: $white;
+  }
+
+  &[disabled],
+  &[disabled]:hover {
+    background: transparent;
+    border-color: $grey-mid-light;
+    color: $grey-mid-light;
+  }
+}
+
+@mixin button--dropdown {
+  padding-right: 50px;
+  position: relative;
+
+  &::after {
+    // Base style based on btn--primary, using white icon
+    background-image: url('../assets/svg/icon-white-chevron-down.svg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    top: 11px;
+    width: 14px;
+  }
+
+  &--selected {
+    &::after {
+      background-image: url('../assets/svg/icon-white-chevron-up.svg');
+      background-position: right center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
+
+@mixin button--checked {
+  padding-right: 36px;
+  position: relative;
+
+  &::after {
+    // Base style based on btn--primary, using white icon
+    background-image: url('../assets/svg/icon-white-tick.svg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    height: 16px;
+    position: absolute;
+    right: 12px;
+    top: 11px;
+    width: 14px;
+  }
+}
+
+@mixin button--chevron {
+  font-weight: 500;
+  position: relative;
+  padding: 0 25px 0 0;
+
+  &::after {
+    // Base style based on btn--primary, using white icon
+    background-image: url('../assets/svg/icon-chevron-right.svg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    height: 7px;
+    padding-top: 10px;
+    position: absolute;
+    right: 10px;
+    transition: color $animation-speed ease-out;
+    top: 4px;
+    width: 7px;
+  }
+
+  &:hover {
+    color: $color-eire-darker;
+
+    &::after {
+      right: $pad-h--xs;
+      transition: right $animation-speed ease-out;
+    }
+  }
+
+  &.btn--micro {
+    &::after {
+      top: 4px;
+      width: 5px;
+    }
+  }
+}
+
+@mixin button--chevron-left {
+  font-weight: 500;
+  position: relative;
+  padding: 0 0 0 25px;
+
+  &::before {
+    // Base style based on btn--primary, using white icon
+    background-image: url('../assets/svg/icon-chevron-right.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    height: 7px;
+    padding-top: 10px;
+    position: absolute;
+    left: 10px;
+    transition: color $animation-speed ease-out;
+    transform:rotate(180deg);
+    top: 4px;
+    width: 7px;
+  }
+
+  &:hover {
+    color: $color-eire-darker;
+
+    &::before {
+      left: $pad-h--xs;
+      transition: left $animation-speed ease-out;
+    }
+  }
+
+  &.btn--micro {
+    &::before {
+      top: 2px;
+      width: 5px;
+    }
+  }
+}
+
+
+// Add pink dot after Title
+@mixin title-dot {
+  &:after {
+    color: $color-bounce;
+    content: '.';
+    display: inline;
+  }
+}
+
+@mixin sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+// dashed-border
+@mixin dashed-border($direction) {
+  $border-direction: if($direction == h, right, top);
+  $border-position: if($direction == h, bottom center, right center);
+  $repeat-direction: if($direction == h, repeat-x, repeat-y);
+
+  background-image: linear-gradient(to $border-direction, $grey-mid 50%, rgba(255,255,255,0) 0%);
+  background-position: $border-position;
+  background-repeat: $repeat-direction;
+  background-size: if($direction == h, 10px 1px, 1px 10px);
+}
+
+// Add horizontal dashed line
+@mixin dashed-border-h {
+  @include dashed-border(h)
+}
+
+// Add vertical dashed line
+@mixin dashed-border-v {
+  @include dashed-border(v)
+}

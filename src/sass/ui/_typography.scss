@@ -1,0 +1,159 @@
+// Typography
+
+// Global font styles
+body {
+  @include font--normal;
+
+  color: $text-color;
+  font-family: $font-family-sans-serif;
+  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
+  font-smooth: always;
+
+  font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.font-adjust--small {
+  @include font--small;
+}
+
+// Selection
+::-moz-selection {
+  background: $color-sailor;
+  color: $white;
+}
+
+::selection {
+  background: $color-sailor;
+  color: $white;
+}
+
+// Family & weight
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  font-family: $font-family-serif;
+  font-weight: $font-weight--bold;
+}
+
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-weight: $font-weight--semibold;
+}
+
+// Margin
+h1, .h1 {
+  margin-bottom: $pad-v--sm;
+}
+
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+  margin-bottom: $pad-v--md;
+}
+
+p {
+  margin-bottom: $pad-v--sm;
+}
+
+.title-margin {
+  &--xl {
+    margin-bottom: $pad-v--xl;
+  }
+}
+
+// Mixins
+h1, .h1 {
+  @include font--hero;
+  @include title-dot;
+}
+
+h2, .h2 {
+  @include font--large;
+}
+
+h3, .h3 {
+  @include font--medium;
+}
+
+h4, .h4 {
+  @include font--lead;
+}
+
+small, .font--small {
+  @include font--small;
+}
+
+.font--micro {
+  @include font--micro;
+}
+
+.font--nano {
+  @include font--nano;
+}
+
+// Title Enhancements
+.title-dot {
+  @include title-dot;
+}
+
+.title-line-breaker > span {
+  @include breakpoint(xxs-only) {
+    display: block;
+  }
+}
+
+// Text-align
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+
+  // Align left on mob, align centre on tablet up,
+  &--xs-up {
+    text-align: left;
+
+    @include breakpoint(xs-up) {
+      text-align: center;
+    }
+  }
+}
+
+// Font weights
+.font-weight--light {
+  font-weight: $font-weight--light;
+}
+
+.font-weight--regular {
+  font-weight: $font-weight--regular;
+}
+
+.font-weight--medium {
+  font-weight: $font-weight--semibold;
+}
+
+.font-weight--semibold {
+  font-weight: $font-weight--semibold;
+}
+
+.font-weight--bold {
+  font-weight: $font-weight--bold;
+}
+
+b, strong {
+  font-weight: $font-weight--bold;
+}
+
+p > a {
+  @include link;
+}

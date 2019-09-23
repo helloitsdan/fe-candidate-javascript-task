@@ -1,0 +1,10 @@
+// Override Bulma default variables
+$column-gap: $gutter--xs;
+$gap:        $column-gap;
+$tablet:     $screen-sm;
+$desktop:    $screen-md;
+$widescreen: $screen-lg;
+$fullhd:     $screen-xl;
+
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/grid/columns.sass";

@@ -1,0 +1,70 @@
+// BREAKPOINT MIXINS
+// Breakpoint mixins for using the above breakpoint px values as min/max rules.
+
+// *-DOWN - targets that size and anything below it.
+// *-ONLY - targets only that size between the min and max values.
+// *-UP - targets anything from the min value upwards.
+
+// XXS
+// No "xxs-down" as "xxs-only" covers this, it is the lowest size.
+// No "xxs-up" as everything is up from there.
+
+// XL
+// No "xl-down" as everything is down from there.
+// No "xl-up" as "xl-only" covers this, being the largest view available.
+
+@mixin breakpoint($viewSize) {
+  // XXS
+  @if $viewSize == xxs-only {
+    @media screen and (max-width: $screen-xxs-max) { @content; }
+  }
+
+  // XS
+  @if $viewSize == xs-down {
+    @media screen and (max-width: $screen-xs-max) { @content; }
+  }
+  @if $viewSize == xs-only {
+    @media screen and (min-width: $screen-xs) and (max-width: $screen-xs-max) { @content; }
+  }
+  @if $viewSize == xs-up {
+    @media screen and (min-width: $screen-xs) { @content; }
+  }
+
+  // SM
+  @if $viewSize == sm-down {
+    @media screen and (max-width: $screen-sm-max) { @content; }
+  }
+  @if $viewSize == sm-only {
+    @media screen and (min-width: $screen-sm) and (max-width: $screen-sm-max) { @content; }
+  }
+  @if $viewSize == sm-up {
+    @media screen and (min-width: $screen-sm) { @content; }
+  }
+
+  // MD
+  @if $viewSize == md-down {
+    @media screen and (max-width: $screen-md-max) { @content; }
+  }
+  @if $viewSize == md-only {
+    @media screen and (min-width: $screen-md) and (max-width: $screen-md-max) { @content; }
+  }
+  @if $viewSize == md-up {
+    @media screen and (min-width: $screen-md) { @content; }
+  }
+
+  // LG
+  @if $viewSize == lg-down {
+    @media screen and (max-width: $screen-lg-max)  { @content; }
+  }
+  @if $viewSize == lg-only {
+    @media screen and (min-width: $screen-lg) and (max-width: $screen-lg-max)  { @content; }
+  }
+  @if $viewSize == lg-up {
+    @media screen and (min-width: $screen-lg) { @content; }
+  }
+
+  // XL
+  @if $viewSize == xl-only {
+    @media screen and (min-width: $screen-xl) { @content; }
+  }
+}

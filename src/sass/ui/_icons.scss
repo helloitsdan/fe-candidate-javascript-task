@@ -1,0 +1,63 @@
+// Icons
+
+.icon {
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-position: center center;
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+
+  &--white-close {
+    background-image: url('~../assets/svg/icon-white-cross.svg');
+  }
+
+  &--green-close {
+    background-image: url('~../assets/svg/icon-green-cross.svg');
+  }
+}
+
+.icon-before {
+  &:before {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    display: block;
+    height: 1rem;
+    margin-top: -0.25rem;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 1rem;
+  }
+
+  &--chevron-down {
+    &:before {
+      background-image: url('~../assets/svg/icon-chevron-down.svg');
+    }
+  }
+
+  &--chevron-green-down {
+    &:before {
+      background-image: url('~../assets/svg/icon-green-chevron-down.svg');
+    }
+  }
+
+  &--chevron-up {
+    &:before {
+      background-image: url('~../assets/svg/icon-chevron-up.svg');
+    }
+  }
+
+  &--chevron-green-up {
+    &:before {
+      background-image: url('~../assets/svg/icon-green-chevron-up.svg');
+    }
+  }
+}
+
+.small-icon {
+  max-width: 26px;
+  height: auto;
+}

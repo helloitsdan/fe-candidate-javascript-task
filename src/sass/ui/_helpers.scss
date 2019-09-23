@@ -1,0 +1,169 @@
+// Responsive image
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+// Icon list
+.list {
+  &--unstyled {
+    // Remove default list styles
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  // List with inline items
+  &--padded {
+    > li {
+      margin-bottom: $pad-v--xxs;
+    }
+  }
+
+  &--content-aligned {
+    // Push list items inline with text content
+    padding-left: 20px;
+  }
+
+  &--all-discs {
+    // Make all unordered list items have disc style
+    // and not inherit nested circle or square
+    // FIX ME / TODO
+    // feels like there could be a more succint way of doing this?
+    &ul li,
+    ul li,
+    ul li ul li,
+    ol li ul li {
+      list-style: disc;
+    }
+  }
+
+  &--inline {
+    display: flex;
+    flex-wrap: wrap;
+    // Remove default list styles
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    > li {
+      align-items: center;
+      display: flex;
+      margin-right: $pad-h--lg;
+
+      @include breakpoint(md-up) {
+        margin-right: $pad-h--xl;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &--columns-2 {
+    @include breakpoint(sm-up) {
+      column-count: 2;
+    }
+  }
+
+  &--columns-3 {
+    @include breakpoint(sm-up) {
+      column-count: 2;
+    }
+
+    @include breakpoint(lg-up) {
+      column-count: 3;
+    }
+  }
+
+  // List with items centered. Best used with list--inline.
+  &--centered {
+    justify-content: center;
+
+    > li,
+    > li:last-child {
+      margin-left: $pad-h--sm;
+      margin-right: $pad-h--sm;
+
+      @include breakpoint(md-up) {
+        margin-left: $pad-h--md;
+        margin-right: $pad-h--md;
+      }
+    }
+  }
+
+  // Set hover on list to reduce all opacity
+  // then bring focus on hovered item with full opacity
+  // Best used on icon lists. For on desktop only
+  &--animated {
+    @include breakpoint(sm-up) {
+      a {
+        transition:
+          opacity $animation-speed ease,
+          transform $animation-speed ease;
+      }
+
+      &:hover a {
+        opacity: 0.75;
+
+        &:hover {
+          opacity: 1;
+          transform: scale(1.1)
+        }
+
+        &:focus {
+          transform: scale(1.2)
+        }
+      }
+    }
+  }
+}
+
+.hr {
+  border-color: $color-sailor-tint transparent transparent transparent ;
+  margin-bottom: $gutter;
+  margin-top: $gutter;
+
+  &--dashed {
+    @include dashed-border-h;
+    border: none;
+    height: 1px;
+  }
+
+  &--light {
+    opacity: 0.5;
+  }
+
+  &--short {
+    max-width: 60px;
+    margin-bottom: $pad-v--md;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: $pad-v--lg;
+  }
+
+  &--center-short {
+    max-width: 100px;
+    margin-bottom: $pad-v--md;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: $pad-v--lg;
+  }
+
+  &--margin-xl {
+    margin-bottom: $pad-v--lg;
+    margin-top: $pad-v--lg;
+
+    @include breakpoint(sm-up) {
+      margin-bottom: $pad-v--xl;
+      margin-top: $pad-v--xl;
+    }
+  }
+}
+
+.image-shadow {
+  // Uses filter over box-shadow as it support PNGs better
+  filter: drop-shadow( $shadow-grey--light );
+}
