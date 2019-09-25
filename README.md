@@ -48,7 +48,11 @@ The app was created with [Vue CLI](https://cli.vuejs.org/).
 
 ### Data API
 
-The app exposes a REST API using [JSON Server](https://github.com/typicode/json-server) at `http://localhost:3000` which can be used to fetch the data for the app.
+This project exposes a REST API using [JSON Server](https://github.com/typicode/json-server) at `http://localhost:3000` which can be used to fetch the data for the app. This is automatically started when running the app but can be run seperately with:
+
+```bash
+npm run db
+```
 
 Examples:
 
