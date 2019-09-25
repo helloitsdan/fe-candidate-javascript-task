@@ -331,22 +331,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "591.49",
-            "monthly": "64.57"
+            "annual": 591.49,
+            "monthly": 64.57
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "1214.05",
-            "monthly": "497.17"
+            "annual": 1214.05,
+            "monthly": 497.17
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "6715.63",
-            "monthly": "186.28"
+            "annual": 6715.63,
+            "monthly": 186.28
           }
         }
       ]
@@ -400,22 +400,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "879.61",
-            "monthly": "26.69"
+            "annual": 879.61,
+            "monthly": 26.69
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "3860.55",
-            "monthly": "349.59"
+            "annual": 3860.55,
+            "monthly": 349.59
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "6963.49",
-            "monthly": "841.34"
+            "annual": 6963.49,
+            "monthly": 841.34
           }
         }
       ]
@@ -441,22 +441,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "332.41",
-            "monthly": "65.16"
+            "annual": 332.41,
+            "monthly": 65.16
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "4126.2",
-            "monthly": "61.68"
+            "annual": 4126.2,
+            "monthly": 61.68
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "5502.4",
-            "monthly": "764.87"
+            "annual": 5502.4,
+            "monthly": 764.87
           }
         }
       ]
@@ -482,22 +482,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "52.83",
-            "monthly": "62.46"
+            "annual": 52.83,
+            "monthly": 62.46
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "2070.66",
-            "monthly": "51.85"
+            "annual": 2070.66,
+            "monthly": 51.85
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "7043.38",
-            "monthly": "640.77"
+            "annual": 7043.38,
+            "monthly": 640.77
           }
         }
       ]
@@ -544,22 +544,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "72.08",
-            "monthly": "13.7"
+            "annual": 72.08,
+            "monthly": 13.7
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "3572.29",
-            "monthly": "229.64"
+            "annual": 3572.29,
+            "monthly": 229.64
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "8655.16",
-            "monthly": "913.22"
+            "annual": 8655.16,
+            "monthly": 913.22
           }
         }
       ]
@@ -606,22 +606,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "546.61",
-            "monthly": "2.53"
+            "annual": 546.61,
+            "monthly": 2.53
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "2703.17",
-            "monthly": "130.53"
+            "annual": 2703.17,
+            "monthly": 130.53
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "6899.88",
-            "monthly": "450.54"
+            "annual": 6899.88,
+            "monthly": 450.54
           }
         }
       ]
@@ -668,22 +668,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "600.68",
-            "monthly": "35.17"
+            "annual": 600.68,
+            "monthly": 35.17
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "4024.12",
-            "monthly": "202.33"
+            "annual": 4024.12,
+            "monthly": 202.33
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "8642.6",
-            "monthly": "318.11"
+            "annual": 8642.6,
+            "monthly": 318.11
           }
         }
       ]
@@ -737,22 +737,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "790.98",
-            "monthly": "15.38"
+            "annual": 790.98,
+            "monthly": 15.38
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "3390.78",
-            "monthly": "238.29"
+            "annual": 3390.78,
+            "monthly": 238.29
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "9681.3",
-            "monthly": "989.01"
+            "annual": 9681.3,
+            "monthly": 989.01
           }
         }
       ]
@@ -806,22 +806,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "633.96",
-            "monthly": "61.29"
+            "annual": 633.96,
+            "monthly": 61.29
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "1929.15",
-            "monthly": "489.07"
+            "annual": 1929.15,
+            "monthly": 489.07
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "5414.14",
-            "monthly": "135.04"
+            "annual": 5414.14,
+            "monthly": 135.04
           }
         }
       ]
@@ -875,22 +875,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "849.64",
-            "monthly": "46.39"
+            "annual": 849.64,
+            "monthly": 46.39
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "1888.68",
-            "monthly": "123.79"
+            "annual": 1888.68,
+            "monthly": 123.79
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "8848.21",
-            "monthly": "369.07"
+            "annual": 8848.21,
+            "monthly": 369.07
           }
         }
       ]
@@ -944,22 +944,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "165.8",
-            "monthly": "85.56"
+            "annual": 165.8,
+            "monthly": 85.56
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "4505.29",
-            "monthly": "402.03"
+            "annual": 4505.29,
+            "monthly": 402.03
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
             "annual": 7757,
-            "monthly": "719.27"
+            "monthly": 719.27
           }
         }
       ]
@@ -985,22 +985,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "798.98",
-            "monthly": "33.65"
+            "annual": 798.98,
+            "monthly": 33.65
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "2505.45",
-            "monthly": "320.52"
+            "annual": 2505.45,
+            "monthly": 320.52
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "9372.03",
-            "monthly": "15.45"
+            "annual": 9372.03,
+            "monthly": 15.45
           }
         }
       ]
@@ -1026,22 +1026,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "119.11",
-            "monthly": "42.49"
+            "annual": 119.11,
+            "monthly": 42.49
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "2759.17",
-            "monthly": "146.02"
+            "annual": 2759.17,
+            "monthly": 146.02
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "8566.61",
-            "monthly": "758.4"
+            "annual": 8566.61,
+            "monthly": 758.4
           }
         }
       ]
@@ -1067,22 +1067,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "273.79",
-            "monthly": "93.11"
+            "annual": 273.79,
+            "monthly": 93.11
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "1574.61",
-            "monthly": "262.81"
+            "annual": 1574.61,
+            "monthly": 262.81
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "7476.84",
-            "monthly": "412.08"
+            "annual": 7476.84,
+            "monthly": 412.08
           }
         }
       ]
@@ -1136,22 +1136,22 @@
         {
           "type": "BASIC",
           "price": {
-            "annual": "396.45",
-            "monthly": "14.85"
+            "annual": 396.45,
+            "monthly": 14.85
           }
         },
         {
           "type": "STANDARD",
           "price": {
-            "annual": "2312.98",
-            "monthly": "399.48"
+            "annual": 2312.98,
+            "monthly": 399.48
           }
         },
         {
           "type": "SUPERIOR",
           "price": {
-            "annual": "8150.51",
-            "monthly": "266.67"
+            "annual": 8150.51,
+            "monthly": 266.67
           }
         }
       ]
@@ -1207,8 +1207,8 @@
       "product": {
         "type": "BASIC",
         "price": {
-          "annual": "591.49",
-          "monthly": "64.57"
+          "annual": 591.49,
+          "monthly": 64.57
         }
       }
     },
@@ -1261,8 +1261,8 @@
       "product": {
         "type": "STANDARD",
         "price": {
-          "annual": "3860.55",
-          "monthly": "349.59"
+          "annual": 3860.55,
+          "monthly": 349.59
         }
       }
     },
@@ -1287,8 +1287,8 @@
       "product": {
         "type": "SUPERIOR",
         "price": {
-          "annual": "5502.4",
-          "monthly": "764.87"
+          "annual": 5502.4,
+          "monthly": 764.87
         }
       }
     },
@@ -1313,8 +1313,8 @@
       "product": {
         "type": "STANDARD",
         "price": {
-          "annual": "2070.66",
-          "monthly": "51.85"
+          "annual": 2070.66,
+          "monthly": 51.85
         }
       }
     },
@@ -1360,8 +1360,8 @@
       "product": {
         "type": "SUPERIOR",
         "price": {
-          "annual": "8655.16",
-          "monthly": "913.22"
+          "annual": 8655.16,
+          "monthly": 913.22
         }
       }
     },
@@ -1407,8 +1407,8 @@
       "product": {
         "type": "STANDARD",
         "price": {
-          "annual": "2703.17",
-          "monthly": "130.53"
+          "annual": 2703.17,
+          "monthly": 130.53
         }
       }
     },
@@ -1454,8 +1454,8 @@
       "product": {
         "type": "BASIC",
         "price": {
-          "annual": "600.68",
-          "monthly": "35.17"
+          "annual": 600.68,
+          "monthly": 35.17
         }
       }
     },
@@ -1508,8 +1508,8 @@
       "product": {
         "type": "STANDARD",
         "price": {
-          "annual": "3390.78",
-          "monthly": "238.29"
+          "annual": 3390.78,
+          "monthly": 238.29
         }
       }
     },
@@ -1562,8 +1562,8 @@
       "product": {
         "type": "STANDARD",
         "price": {
-          "annual": "1929.15",
-          "monthly": "489.07"
+          "annual": 1929.15,
+          "monthly": 489.07
         }
       }
     },
@@ -1615,8 +1615,8 @@
       "product": {
         "type": "STANDARD",
         "price": {
-          "annual": "1888.68",
-          "monthly": "123.79"
+          "annual": 1888.68,
+          "monthly": 123.79
         }
       }
     },
@@ -1670,7 +1670,7 @@
         "type": "SUPERIOR",
         "price": {
           "annual": 7757,
-          "monthly": "719.27"
+          "monthly": 719.27
         }
       }
     }
