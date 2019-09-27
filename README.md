@@ -24,7 +24,7 @@ Good luck!
 1. Clone the repository:
 
    ```bash
-   git clone git@github.com:boughtbymany/frontend-candidate-javascript-task-[your_github_username].git
+   git clone git@github.com:boughtbymany/fe-candidate-javascript-task-[your_github_username].git
    ```
 
 1. Install dependencies:
