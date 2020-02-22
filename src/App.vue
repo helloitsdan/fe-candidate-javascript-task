@@ -3,7 +3,7 @@
     <site-header />
 
     <main class="content">
-      <!-- Add your code here -->
+      <router-view></router-view>
     </main>
 
     <site-footer />
