@@ -25,7 +25,6 @@ export default {
 </script>
 
 <style lang="scss">
-
 .content {
   margin-top: 80px;
 
