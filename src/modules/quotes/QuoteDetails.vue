@@ -26,8 +26,14 @@
       </section>
     </div>
 
-    <div class="background--barely">
-      <section v-if="quote" class="container padded-block">
+    <div v-if="quote" class="background--clay-dark">
+      <section class="container padded-block">
+        <product-quotes v-bind="quote" />
+      </section>
+    </div>
+
+    <div v-if="quote" class="background--barely">
+      <section class="container padded-block">
         <policy-entities v-bind="quote" />
       </section>
     </div>
@@ -36,6 +42,7 @@
 
 <script lang="ts">
 import Vue from "vue";
+import ProductQuotes from "./ProductQuotes.vue";
 import PolicyInformation from "@/components/PolicyInformation.vue";
 import PolicyEntities from "@/components/PolicyEntities.vue";
 
@@ -45,6 +52,7 @@ export default Vue.extend({
   name: "QuoteDetails",
   props: ["quoteId"],
   components: {
+    ProductQuotes,
     PolicyInformation,
     PolicyEntities
   },
@@ -70,6 +78,7 @@ export default Vue.extend({
 
       try {
         this.quote = await getQuotes(quoteId);
+        console.log(this.quote);
       } catch (e) {
         this.error = e;
       }

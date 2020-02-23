@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductQuotes renders 1`] = `
+<div
+  class="text-center"
+>
+  <h2>
+    Quoted Products
+  </h2>
+   
+  <!---->
+   
+  <div
+    class="columns is-multiline"
+  >
+    <div
+      class="column is-one-third"
+    >
+      <div
+        class="card background--white"
+      >
+        <product-summary-stub
+          price="[object Object]"
+          type="BASIC"
+        />
+      </div>
+    </div>
+    <div
+      class="column is-one-third"
+    >
+      <div
+        class="card background--white"
+      >
+        <product-summary-stub
+          price="[object Object]"
+          type="SUPERIOR"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

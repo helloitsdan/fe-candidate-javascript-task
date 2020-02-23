@@ -31,7 +31,6 @@ export default Vue.extend({
   },
   props: {
     insured_entities: Array,
-    products: Array
   }
 });
 </script>
