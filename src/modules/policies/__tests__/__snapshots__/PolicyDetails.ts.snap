@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyDetails renders 1`] = `
+<div>
+  <div
+    class="background--grey-green"
+  >
+    <!---->
+     
+    <section
+      class="container padded-block"
+    >
+      <nav>
+        <p>
+          <router-link-stub
+            to="[object Object]"
+          >
+            
+            Back to policy list
+          
+          </router-link-stub>
+        </p>
+      </nav>
+       
+      <h2>
+        
+        Policy for 2 cats, 1 dog
+      
+      </h2>
+       
+      <policy-information-stub
+        insured_entities="[object Object],[object Object],[object Object]"
+        start_date="2016-07-13T02:57:55.235Z"
+        status="ACTIVE"
+        uuid="1234"
+      />
+    </section>
+  </div>
+   
+  <div
+    class="background--barely"
+  >
+    <section
+      class="container padded-block"
+    >
+      <policy-entities-stub
+        insured_entities="[object Object],[object Object],[object Object]"
+        start_date="2016-07-13T02:57:55.235Z"
+        status="ACTIVE"
+        uuid="1234"
+      />
+    </section>
+  </div>
+</div>
+`;

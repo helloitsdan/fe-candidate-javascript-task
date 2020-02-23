@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyEntities renders 1`] = `
+<div
+  entities=""
+>
+  <h2>
+    Pets
+  </h2>
+   
+  <div>
+    
+    There are no associated pets.
+  
+  </div>
+   
+  <!---->
+</div>
+`;

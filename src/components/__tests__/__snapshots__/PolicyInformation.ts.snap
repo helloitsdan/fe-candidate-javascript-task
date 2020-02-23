@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyInformation renders 1`] = `
+<div
+  class="columns"
+>
+  <div
+    class="column is-one-third"
+  >
+    <h4>
+      Started on
+    </h4>
+    
+    Saturday, July 13th 2019
+  
+  </div>
+   
+  <div
+    class="column is-one-third"
+  >
+    <h4>
+      Ends on
+    </h4>
+    
+    Monday, January 10th 2022
+  
+  </div>
+   
+  <div
+    class="column is-one-third"
+  >
+    <h4>
+      Status
+    </h4>
+    
+    ACTIVE
+  
+  </div>
+</div>
+`;

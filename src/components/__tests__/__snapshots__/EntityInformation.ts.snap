@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EntityInformation renders 1`] = `
+<div>
+  <h4>
+    <strong>
+      Noriko
+    </strong>
+    , a mixed cat
+  
+  </h4>
+   
+  <p
+    class="is-marginless"
+  >
+    
+    Born on Saturday, July 13th 2019
+  
+  </p>
+</div>
+`;

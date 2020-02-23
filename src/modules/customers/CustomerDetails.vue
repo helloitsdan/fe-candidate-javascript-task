@@ -1,12 +1,12 @@
 <template>
   <div>
-    <section v-if="!customer" class="container padded-block">
+    <div v-if="!customer" class="container padded-block">
       <div v-if="loading" class="loading">Loading...</div>
 
       <div v-if="error" class="error">
         Sorry! We couldn't load this customer's details right now.
       </div>
-    </section>
+    </div>
 
     <div v-if="customer">
       <header class="container padded-block">

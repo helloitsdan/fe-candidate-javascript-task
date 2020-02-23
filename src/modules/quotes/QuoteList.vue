@@ -7,7 +7,7 @@
     </div>
 
     <div v-if="error" class="error">
-      Sorry! We couldn't load this customer's policies right now.
+      Sorry! We couldn't load this customer's quotes right now.
     </div>
 
     <div v-if="quotes" class="columns is-multiline">
