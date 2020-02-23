@@ -16,6 +16,19 @@ describe("apiRequest", () => {
     expect(fetchMock).toHaveBeenCalledWith(expectedUrl, expect.any(Object));
   });
 
+  it("parses response and returns its JSON body", async () => {
+    const expectedBody = {
+      cats: {
+        good: true
+      }
+    };
+
+    fetchMock.mockResponses([JSON.stringify(expectedBody), { status: 200 }]);
+
+    const response = await apiRequest("customers");
+    expect(response).toEqual(expectedBody);
+  });
+
   it("throws an error when the request fails", async () => {
     fetchMock.mockResponses([
       JSON.stringify({ error: "Server broken :(" }),

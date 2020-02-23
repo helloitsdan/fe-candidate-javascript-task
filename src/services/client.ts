@@ -16,9 +16,9 @@ const apiRequest = async (
 
   if (!response.ok) {
     throw createErrorFromResponse(response);
-  }
+  }  
 
-  return response;
+  return await response.json();
 };
 
 export { BASE_API_URL };

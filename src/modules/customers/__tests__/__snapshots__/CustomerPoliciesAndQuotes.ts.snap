@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerPoliciesAndQuotes renders 1`] = `
+<div
+  class="background--barely"
+>
+  <section
+    class="container padded-block"
+  >
+    <policy-list-stub />
+  </section>
+   
+  <section
+    class="container padded-block"
+  >
+    <quote-list-stub />
+  </section>
+</div>
+`;

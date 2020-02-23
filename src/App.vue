@@ -11,17 +11,18 @@
 </template>
 
 <script>
+import Vue from "vue";
 
-import SiteHeader from '@/components/SiteHeader'
-import SiteFooter from '@/components/SiteFooter'
+import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 
-export default {
-  name: 'app',
+export default Vue.extend({
+  name: "app",
   components: {
     SiteHeader,
-    SiteFooter,
+    SiteFooter
   }
-}
+});
 </script>
 
 <style lang="scss">

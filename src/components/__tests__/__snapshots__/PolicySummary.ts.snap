@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicySummary renders 1`] = `
+<div>
+  <h3
+    class="is-marginless"
+  >
+    2 cats, 1 dog
+  </h3>
+   
+  <p>
+    <strong>
+      Active
+    </strong>
+  </p>
+   
+  <p>
+    Started on Wednesday, July 13th 2016
+  </p>
+</div>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerList renders 1`] = `
+<div
+  class="background--barely"
+>
+  <section
+    class="container padded-block"
+  >
+    <h1
+      class="title-margin"
+    >
+      Customers
+    </h1>
+     
+    <!---->
+     
+    <!---->
+     
+    <div
+      class="columns is-multiline"
+    >
+      <div
+        class="column is-half"
+      >
+        <customer-card-stub
+          class="background--white"
+          email="test.user@pretend.biz"
+          isactive="true"
+          name="[object Object]"
+          registered="2016-07-13T02:57:55.235Z"
+          uuid="1234"
+        />
+      </div>
+      <div
+        class="column is-half"
+      >
+        <customer-card-stub
+          class="background--white"
+          email="second.user@pretend.biz"
+          name="[object Object]"
+          registered="2016-09-13T02:57:55.235Z"
+          uuid="5678"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;

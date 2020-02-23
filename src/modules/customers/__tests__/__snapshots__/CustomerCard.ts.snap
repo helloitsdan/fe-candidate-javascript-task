@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerCard renders 1`] = `
+<div
+  class="card"
+>
+  <h3
+    class="is-marginless"
+  >
+    Test Customer
+  </h3>
+   
+  <p>
+    test.user@pretend.biz
+  </p>
+   
+  <p>
+    <strong>
+      Registered on
+    </strong>
+    
+    Wednesday, July 13th 2016
+  
+  </p>
+   
+  <!---->
+   
+  <p
+    class="is-marginless"
+  >
+    <router-link-stub
+      to="[object Object]"
+    >
+      
+      View details
+    
+    </router-link-stub>
+  </p>
+</div>
+`;

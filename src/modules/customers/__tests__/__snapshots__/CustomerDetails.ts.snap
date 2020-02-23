@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetails renders 1`] = `
+<div>
+  <!---->
+   
+  <div>
+    <header
+      class="container padded-block"
+    >
+      <nav>
+        <p>
+          <router-link-stub
+            to="/"
+          >
+            Back to customer list
+          </router-link-stub>
+        </p>
+      </nav>
+       
+      <div
+        class="columns"
+      >
+        <div
+          class="column is-two-thirds"
+        >
+          <h1
+            class="is-marginless"
+          >
+            Test Customer
+          </h1>
+           
+          <p>
+            test.user@pretend.biz
+          </p>
+           
+          <h3>
+            Contact information
+          </h3>
+           
+          <p>
+            
+          </p>
+           
+          <p>
+            
+          </p>
+        </div>
+         
+        <div
+          class="column is-one-third"
+        >
+          <p>
+            <strong>
+              Registered on
+            </strong>
+            
+            Wednesday, July 13th 2016
+          
+          </p>
+           
+          <!---->
+        </div>
+      </div>
+    </header>
+     
+    <router-view-stub />
+  </div>
+</div>
+`;

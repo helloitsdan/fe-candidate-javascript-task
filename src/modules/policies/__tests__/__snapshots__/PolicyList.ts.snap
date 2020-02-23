@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyList renders 1`] = `
+<div>
+  <h2
+    class="title-margin"
+  >
+    Policies
+  </h2>
+   
+  <!---->
+   
+  <!---->
+   
+  <div
+    class="columns is-multiline"
+  >
+    <div
+      class="column is-one-third"
+    >
+      <div
+        class="card background--white"
+      >
+        <policy-summary-stub
+          insured_entities="[object Object],[object Object],[object Object]"
+          start_date="2016-07-13T02:57:55.235Z"
+          status="ACTIVE"
+          uuid="1234"
+        />
+         
+        <p
+          class="is-marginless"
+        >
+          <router-link-stub
+            to="[object Object]"
+          >
+            
+            View details
+          
+          </router-link-stub>
+        </p>
+      </div>
+    </div>
+    <div
+      class="column is-one-third"
+    >
+      <div
+        class="card background--white"
+      >
+        <policy-summary-stub
+          insured_entities="[object Object]"
+          start_date="2016-07-19T08:57:55.235Z"
+          status="INACTIVE"
+          uuid="5678"
+        />
+         
+        <p
+          class="is-marginless"
+        >
+          <router-link-stub
+            to="[object Object]"
+          >
+            
+            View details
+          
+          </router-link-stub>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
