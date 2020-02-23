@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductSummary renders 1`] = `
+<div>
+  <h3>
+    BASIC product
+  </h3>
+   
+  <p
+    class="is-marginless"
+  >
+    <strong>
+      £100.00
+    </strong>
+    
+    monthly /
+    
+    <strong>
+      £1200.00
+    </strong>
+    
+    annualy
+  
+  </p>
+</div>
+`;

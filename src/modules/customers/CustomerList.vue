@@ -30,6 +30,19 @@ import Vue from "vue";
 import getCustomers from "@/services/customers";
 import CustomerCard from "./CustomerCard.vue";
 
+import compareDateStrings from "@/utils/compareDateStrings";
+
+/* This should be a computed property, but ts3.4 has an open issue where they break type inferrence */
+const sortCustomerList = (customers: [{ registered: string }]) => {
+  if (!customers) {
+    return [];
+  }
+
+  return customers.sort((customerA, customerB) =>
+    compareDateStrings(customerA.registered, customerB.registered)
+  );
+};
+
 export default Vue.extend({
   name: "CustomerList",
   components: {
@@ -54,7 +67,7 @@ export default Vue.extend({
       this.loading = true;
 
       try {
-        this.customers = await getCustomers();
+        this.customers = sortCustomerList(await getCustomers()) as [];
       } catch (e) {
         this.error = e;
       }

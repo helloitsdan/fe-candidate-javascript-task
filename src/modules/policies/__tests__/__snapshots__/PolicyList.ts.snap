@@ -22,10 +22,10 @@ exports[`PolicyList renders 1`] = `
         class="card background--white"
       >
         <policy-summary-stub
-          insured_entities="[object Object],[object Object],[object Object]"
-          start_date="2016-07-13T02:57:55.235Z"
-          status="ACTIVE"
-          uuid="1234"
+          insured_entities="[object Object]"
+          start_date="2016-07-19T08:57:55.235Z"
+          status="INACTIVE"
+          uuid="5678"
         />
          
         <p
@@ -48,10 +48,10 @@ exports[`PolicyList renders 1`] = `
         class="card background--white"
       >
         <policy-summary-stub
-          insured_entities="[object Object]"
-          start_date="2016-07-19T08:57:55.235Z"
-          status="INACTIVE"
-          uuid="5678"
+          insured_entities="[object Object],[object Object],[object Object]"
+          start_date="2016-07-13T02:57:55.235Z"
+          status="ACTIVE"
+          uuid="1234"
         />
          
         <p

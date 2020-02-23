@@ -3,6 +3,7 @@
 exports[`PolicyEntities renders 1`] = `
 <div
   entities=""
+  products=""
 >
   <h2>
     Pets

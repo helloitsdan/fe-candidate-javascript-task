@@ -38,6 +38,21 @@ exports[`QuoteDetails renders 1`] = `
   </div>
    
   <div
+    class="background--clay-dark"
+  >
+    <section
+      class="container padded-block"
+    >
+      <product-quotes-stub
+        insured_entities="[object Object],[object Object],[object Object]"
+        start_date="2016-07-13T02:57:55.235Z"
+        status="ACTIVE"
+        uuid="1234"
+      />
+    </section>
+  </div>
+   
+  <div
     class="background--barely"
   >
     <section

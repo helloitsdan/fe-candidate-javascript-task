@@ -38,6 +38,16 @@ exports[`PolicyDetails renders 1`] = `
   </div>
    
   <div
+    class="background--clay-dark"
+  >
+    <section
+      class="container padded-block"
+    >
+      <policy-product-stub />
+    </section>
+  </div>
+   
+  <div
     class="background--barely"
   >
     <section

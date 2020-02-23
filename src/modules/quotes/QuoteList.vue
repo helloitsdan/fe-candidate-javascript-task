@@ -40,6 +40,18 @@ import Vue from "vue";
 
 import getQuotes from "@/services/quotes";
 import PolicySummary from "@/components/PolicySummary.vue";
+import compareDateStrings from '@/utils/compareDateStrings';
+
+/* This should be a computed property, but ts3.4 has an open issue where they break type inferrence */
+const sortQuoteList = (quotes: [{ start_date: string }]) => {
+  if (!quotes) {
+    return [];
+  }
+
+  return quotes.sort((quoteA, quoteB) =>
+    compareDateStrings(quoteA.start_date, quoteB.start_date)
+  );
+};
 
 export default Vue.extend({
   name: "QuoteList",
@@ -68,7 +80,7 @@ export default Vue.extend({
       this.loading = true;
 
       try {
-        this.quotes = await getQuotes(customerId);
+        this.quotes = sortQuoteList(await getQuotes(customerId)) as [];
       } catch (e) {
         this.error = e;
       }

@@ -78,7 +78,6 @@ export default Vue.extend({
 
       try {
         this.quote = await getQuotes(quoteId);
-        console.log(this.quote);
       } catch (e) {
         this.error = e;
       }
