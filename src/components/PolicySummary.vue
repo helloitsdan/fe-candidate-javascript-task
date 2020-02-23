@@ -1,7 +1,20 @@
 <template>
   <div>
-    <h3 class="is-marginless">{{ insured_entities | summariseInsuredEntities }}</h3>
-    <p v-if="status === 'ACTIVE'"><strong>Active</strong></p>
+    <h3 class="is-marginless">
+      {{ insured_entities | summariseInsuredEntities }}
+    </h3>
+
+    <p class="active" v-if="status === 'ACTIVE'">
+      <strong>Active</strong>
+    </p>
+
+    <p class="cancelled" v-if="status === 'CANCELLED'">
+      Cancelled
+    </p>
+
+    <p class="lapsed" v-if="status === 'LAPSED'">
+      Lapsed
+    </p>
 
     <p>Started on {{ start_date | moment("dddd, MMMM Do YYYY") }}</p>
   </div>

@@ -21,4 +21,26 @@ describe("PolicySummary", () => {
 
     expect(wrapper.element).toMatchSnapshot();
   });
+
+  it("renders a different message when this policy has been cancelled", () => {
+    const wrapper = shallowMount(PolicySummary, {
+      propsData: {
+        ...fakePolicy,
+        status: "CANCELLED",
+      },
+    });
+
+    expect(wrapper.find('.cancelled').exists()).toBe(true)
+  });
+
+  it("renders a different message when this policy has lapsed", () => {
+    const wrapper = shallowMount(PolicySummary, {
+      propsData: {
+        ...fakePolicy,
+        status: "LAPSED",
+      },
+    });
+
+    expect(wrapper.find('.lapsed').exists()).toBe(true)
+  });
 });

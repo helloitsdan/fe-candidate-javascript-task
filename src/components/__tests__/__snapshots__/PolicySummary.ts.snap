@@ -5,14 +5,22 @@ exports[`PolicySummary renders 1`] = `
   <h3
     class="is-marginless"
   >
+    
     2 cats, 1 dog
+  
   </h3>
    
-  <p>
+  <p
+    class="active"
+  >
     <strong>
       Active
     </strong>
   </p>
+   
+  <!---->
+   
+  <!---->
    
   <p>
     Started on Wednesday, July 13th 2016
