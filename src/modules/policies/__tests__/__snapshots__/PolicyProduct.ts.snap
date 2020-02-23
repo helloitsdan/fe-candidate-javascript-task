@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyProduct renders 1`] = `
+<div
+  class="text-center"
+>
+  <h2>
+    BASIC product
+  </h2>
+   
+  <div
+    class="columns"
+  >
+    <div
+      class="column"
+    >
+      <span
+        class="h1 display-block"
+      >
+        £100.00
+      </span>
+      
+      monthly
+    
+    </div>
+     
+    <div
+      class="column"
+    >
+      <span
+        class="h1 display-block"
+      >
+        £1200.00
+      </span>
+      
+      annually
+    
+    </div>
+  </div>
+</div>
+`;

@@ -26,8 +26,14 @@
       </section>
     </div>
 
-    <div class="background--barely">
-      <section v-if="policy" class="container padded-block">
+    <div v-if="policy" class="background--clay-dark">
+      <section class="container padded-block">
+        <policy-product v-bind="policy.product" />
+      </section>
+    </div>
+
+    <div v-if="policy" class="background--barely">
+      <section class="container padded-block">
         <policy-entities v-bind="policy" />
       </section>
     </div>
@@ -36,6 +42,7 @@
 
 <script lang="ts">
 import Vue from "vue";
+import PolicyProduct from "./PolicyProduct.vue";
 import PolicyInformation from "@/components/PolicyInformation.vue";
 import PolicyEntities from "@/components/PolicyEntities.vue";
 
@@ -45,6 +52,7 @@ export default Vue.extend({
   name: "PolicyDetails",
   props: ["policyId"],
   components: {
+    PolicyProduct,
     PolicyInformation,
     PolicyEntities
   },
